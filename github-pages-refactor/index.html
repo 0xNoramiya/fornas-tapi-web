@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fornas Tapi Web</title>
+    <style>
+      :root {
+        --bg: #f6f7f3;
+        --card: #ffffff;
+        --line: #dfe4df;
+        --text: #1a2630;
+        --muted: #5c6b78;
+        --brand: #0d746e;
+        --brand-soft: #e4f4f1;
+        --warn: #a84646;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 92% -8%, #d8f0ec 0%, rgba(216, 240, 236, 0) 48%),
+          radial-gradient(circle at -5% 110%, #f8ecd0 0%, rgba(248, 236, 208, 0) 45%),
+          var(--bg);
+      }
+
+      .app {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 14px;
+        display: grid;
+        gap: 10px;
+      }
+
+      .panel {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: var(--card);
+        box-shadow: 0 12px 26px rgba(24, 40, 52, 0.08);
+      }
+
+      .hero {
+        padding: 14px;
+        background: linear-gradient(130deg, #fffef8 0%, #f4fffd 100%);
+      }
+
+      .hero h1 {
+        margin: 0;
+        font-size: clamp(1.2rem, 1rem + 0.9vw, 1.8rem);
+        letter-spacing: -0.02em;
+      }
+
+      .hero p {
+        margin: 6px 0 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .search-wrap {
+        position: sticky;
+        top: 8px;
+        z-index: 10;
+        padding: 12px;
+      }
+
+      .label {
+        font-size: 0.77rem;
+        text-transform: uppercase;
+        color: var(--muted);
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+
+      .autocomplete {
+        margin-top: 7px;
+        position: relative;
+      }
+
+      input,
+      select,
+      button {
+        font: inherit;
+      }
+
+      .search-input,
+      .calc-input,
+      .calc-select {
+        width: 100%;
+        border: 1px solid #c8d2cf;
+        border-radius: 10px;
+        padding: 11px;
+        background: #fff;
+      }
+
+      .search-input:focus,
+      .calc-input:focus,
+      .calc-select:focus {
+        outline: none;
+        border-color: var(--brand);
+        box-shadow: 0 0 0 3px rgba(13, 116, 110, 0.15);
+      }
+
+      .search-meta {
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 0.83rem;
+      }
+
+      .suggestions {
+        position: absolute;
+        top: calc(100% + 6px);
+        left: 0;
+        right: 0;
+        max-height: min(52vh, 360px);
+        overflow: auto;
+        border: 1px solid #ced8d4;
+        border-radius: 11px;
+        background: #fff;
+        box-shadow: 0 14px 25px rgba(20, 32, 42, 0.13);
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      .s-item {
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid #edf2ee;
+        background: #fff;
+        text-align: left;
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      .s-item:last-child {
+        border-bottom: 0;
+      }
+
+      .s-item:hover,
+      .s-item.active {
+        background: #eaf7f4;
+      }
+
+      .s-name {
+        display: block;
+        font-weight: 650;
+        font-size: 0.93rem;
+      }
+
+      .s-meta {
+        margin-top: 2px;
+        color: var(--muted);
+        font-size: 0.79rem;
+      }
+
+      .detail {
+        padding: 12px;
+      }
+
+      .empty {
+        color: var(--muted);
+        font-style: italic;
+      }
+
+      .head {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .head h2 {
+        margin: 0;
+        font-size: 1.3rem;
+      }
+
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        padding: 4px 10px;
+        background: var(--brand-soft);
+        color: #0d5854;
+        font-size: 0.79rem;
+        font-weight: 700;
+      }
+
+      .meta-grid {
+        margin-top: 10px;
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .meta-card {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 9px;
+      }
+
+      .meta-card .k {
+        color: var(--muted);
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+
+      .meta-card .v {
+        margin-top: 4px;
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+
+      .calc-card {
+        margin-top: 10px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .calc-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .calc-toggle {
+        border: 1px solid #b7cbc6;
+        border-radius: 8px;
+        background: #f4f8f7;
+        color: #225e59;
+        padding: 6px 10px;
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+
+      .calc-grid {
+        margin-top: 8px;
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .field {
+        display: grid;
+        gap: 5px;
+      }
+
+      .field label {
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .calc-actions {
+        margin-top: 8px;
+      }
+
+      .calc-btn {
+        border: 0;
+        border-radius: 9px;
+        background: var(--brand);
+        color: #fff;
+        padding: 9px 13px;
+        cursor: pointer;
+      }
+
+      .calc-result {
+        margin-top: 10px;
+        border: 1px solid #dbe5df;
+        border-radius: 9px;
+        background: #f8fbf9;
+        padding: 9px;
+        font-size: 0.86rem;
+      }
+
+      .calc-result.error {
+        border-color: #edcdcd;
+        background: #fff6f6;
+        color: var(--warn);
+      }
+
+      .line {
+        margin: 3px 0;
+      }
+
+      .prep-head {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .toggle {
+        display: inline-flex;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .toggle button {
+        border: 0;
+        background: #f3f5f2;
+        color: var(--muted);
+        padding: 7px 12px;
+        cursor: pointer;
+        font-size: 0.8rem;
+      }
+
+      .toggle button.active {
+        background: var(--brand);
+        color: #fff;
+      }
+
+      .cards {
+        margin-top: 8px;
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      }
+
+      .prep {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 9px;
+        background: #fff;
+      }
+
+      .prep-top {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+      }
+
+      .prep-form {
+        font-weight: 650;
+      }
+
+      .prep-strength {
+        font-size: 0.78rem;
+        color: #164541;
+        background: #e7f2f0;
+        border-radius: 8px;
+        padding: 2px 7px;
+      }
+
+      .prep-raw {
+        margin-top: 7px;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .prep-page {
+        margin-top: 6px;
+        color: #2d4958;
+        font-size: 0.77rem;
+      }
+
+      .table-wrap {
+        margin-top: 8px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        overflow: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.86rem;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid #e3e7e0;
+        padding: 8px 7px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: #f7f8f4;
+        color: var(--muted);
+        font-size: 0.77rem;
+        text-transform: uppercase;
+      }
+
+      @media (max-width: 820px) {
+        .app {
+          padding: 10px;
+        }
+
+        .meta-grid,
+        .calc-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .head h2 {
+          font-size: 1.12rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <section class="panel hero">
+        <h1>Fornas Tapi Web</h1>
+        <p>GitHub Pages static refactor: autocomplete search + preparation explorer + basic mg/day calculator.</p>
+      </section>
+
+      <section class="panel search-wrap">
+        <div class="label">Drug Search</div>
+        <div class="autocomplete">
+          <input id="searchInput" class="search-input" placeholder="Start typing drug name..." autocomplete="off" />
+          <div id="suggestions" class="suggestions hidden"></div>
+        </div>
+        <div id="searchMeta" class="search-meta">Booting catalog...</div>
+      </section>
+
+      <section class="panel detail" id="detailRoot">
+        <div class="empty">Select a drug from autocomplete recommendations.</div>
+      </section>
+    </div>
+
+    <script>
+      const state = {
+        drugs: [],
+        suggestions: [],
+        activeIndex: -1,
+        selectedDrug: null,
+        viewMode: "cards",
+        calcExpanded: false,
+      };
+
+      const searchInput = document.getElementById("searchInput");
+      const suggestionsEl = document.getElementById("suggestions");
+      const searchMeta = document.getElementById("searchMeta");
+      const detailRoot = document.getElementById("detailRoot");
+
+      const normalize = (v) => (v || "").toString().toLowerCase();
+
+      function formsForDrug(drug) {
+        const forms = new Set((drug.preparations || []).map((p) => p.form).filter(Boolean));
+        return Array.from(forms).sort();
+      }
+
+      function searchDrugs(query, limit = 12) {
+        const q = normalize(query).trim();
+        if (!q) return [];
+
+        const scored = [];
+        for (const drug of state.drugs) {
+          const name = normalize(drug.name);
+          const prepText = normalize((drug.preparations || []).map((p) => p.text || "").join(" "));
+          let score = -1;
+
+          if (name.startsWith(q)) score = 100;
+          else if (name.includes(q)) score = 75;
+          else if (prepText.includes(q)) score = 45;
+
+          if (score >= 0) {
+            scored.push({
+              score,
+              drug,
+              forms: formsForDrug(drug),
+            });
+          }
+        }
+
+        scored.sort((a, b) => {
+          if (b.score !== a.score) return b.score - a.score;
+          return a.drug.name.localeCompare(b.drug.name);
+        });
+
+        return scored.slice(0, limit).map((x) => ({
+          id: x.drug.id,
+          name: x.drug.name,
+          preparation_count: (x.drug.preparations || []).length,
+          forms: x.forms,
+        }));
+      }
+
+      function renderSuggestions() {
+        if (!state.suggestions.length) {
+          suggestionsEl.classList.add("hidden");
+          suggestionsEl.innerHTML = "";
+          return;
+        }
+
+        suggestionsEl.innerHTML = state.suggestions.map((drug, i) => {
+          const forms = (drug.forms || []).join(", ") || "-";
+          return `
+            <button class="s-item ${i === state.activeIndex ? "active" : ""}" data-id="${drug.id}">
+              <span class="s-name">${drug.name}</span>
+              <span class="s-meta">${drug.preparation_count} preps | ${forms}</span>
+            </button>
+          `;
+        }).join("");
+
+        suggestionsEl.classList.remove("hidden");
+
+        suggestionsEl.querySelectorAll(".s-item").forEach((el) => {
+          el.addEventListener("mousedown", (event) => {
+            event.preventDefault();
+            selectSuggestion(el.dataset.id);
+          });
+        });
+      }
+
+      function hideSuggestions() {
+        suggestionsEl.classList.add("hidden");
+      }
+
+      function getDrugById(id) {
+        return state.drugs.find((d) => d.id === id) || null;
+      }
+
+      function toNum(raw) {
+        if (raw === null || raw === undefined) return NaN;
+        return Number.parseFloat(String(raw).replace(",", "."));
+      }
+
+      function toMg(value, unit) {
+        const u = normalize(unit);
+        if (u === "mg") return value;
+        if (u === "g") return value * 1000;
+        if (u === "mcg") return value / 1000;
+        return NaN;
+      }
+
+      function parseStrength(prep) {
+        const text = String(prep?.strength || prep?.text || "");
+
+        let m = text.match(/(\d+(?:[.,]\d+)?)\s*(mg|mcg|g)\s*\/\s*(\d+(?:[.,]\d+)?)\s*m[lL]\b/i);
+        if (m) {
+          const amount = toMg(toNum(m[1]), m[2]);
+          const volume = toNum(m[3]);
+          return {
+            mode: "mg_per_ml",
+            mgPerMl: amount / volume,
+            source: m[0],
+          };
+        }
+
+        m = text.match(/(\d+(?:[.,]\d+)?)\s*(mg|mcg|g)\s*\/\s*m[lL]\b/i);
+        if (m) {
+          return {
+            mode: "mg_per_ml",
+            mgPerMl: toMg(toNum(m[1]), m[2]),
+            source: m[0],
+          };
+        }
+
+        m = text.match(/(\d+(?:[.,]\d+)?)\s*(mg|mcg|g)\b/i);
+        if (m) {
+          return {
+            mode: "mg_per_unit",
+            mgPerUnit: toMg(toNum(m[1]), m[2]),
+            source: m[0],
+          };
+        }
+
+        return { mode: "unsupported", source: null };
+      }
+
+      function r2(v) {
+        return Math.round(v * 100) / 100;
+      }
+
+      function runBasicCalculationPayload(drug, prepIndex, mgPerDay, weeks, bottleMl) {
+        if (!drug) throw new Error("No drug selected.");
+        if (!(mgPerDay > 0)) throw new Error("Dose target must be > 0 mg/day.");
+        if (!(weeks > 0)) throw new Error("Duration must be > 0 week.");
+        if (!(prepIndex >= 0) || prepIndex >= (drug.preparations || []).length) {
+          throw new Error("Invalid preparation selection.");
+        }
+
+        const prep = drug.preparations[prepIndex];
+        const parsed = parseStrength(prep);
+
+        const totalDays = weeks * 7;
+        const totalMg = mgPerDay * totalDays;
+
+        const base = {
+          totalDays: r2(totalDays),
+          totalRequiredMg: r2(totalMg),
+          preparation: prep,
+          parsing: parsed,
+        };
+
+        if (parsed.mode === "mg_per_unit") {
+          const unitsPerDay = mgPerDay / parsed.mgPerUnit;
+          const totalUnits = totalMg / parsed.mgPerUnit;
+          return {
+            ...base,
+            mode: "unit_based",
+            result: {
+              mgPerUnit: r2(parsed.mgPerUnit),
+              unitsPerDay: r2(unitsPerDay),
+              totalUnitsExact: r2(totalUnits),
+              totalUnitsRoundUp: Math.ceil(totalUnits),
+            },
+          };
+        }
+
+        if (parsed.mode === "mg_per_ml") {
+          const mlPerDay = mgPerDay / parsed.mgPerMl;
+          const totalMl = totalMg / parsed.mgPerMl;
+          const bottles = (bottleMl && bottleMl > 0) ? Math.ceil(totalMl / bottleMl) : null;
+          return {
+            ...base,
+            mode: "liquid_based",
+            result: {
+              mgPerMl: r2(parsed.mgPerMl),
+              mlPerDay: r2(mlPerDay),
+              totalMl: r2(totalMl),
+              cth5PerDay: r2(mlPerDay / 5),
+              c15PerDay: r2(mlPerDay / 15),
+              totalCth5: r2(totalMl / 5),
+              totalC15: r2(totalMl / 15),
+              bottleVolumeMl: bottleMl || null,
+              bottlesNeededRoundUp: bottles,
+            },
+          };
+        }
+
+        return {
+          ...base,
+          mode: "unsupported",
+          result: {
+            message: "Strength format is not parseable for this basic calculator.",
+          },
+        };
+      }
+
+      function renderCalcError(message) {
+        const box = detailRoot.querySelector("#calcResult");
+        if (!box) return;
+        box.classList.remove("hidden");
+        box.classList.add("error");
+        box.innerHTML = message;
+      }
+
+      function renderCalcSuccess(payload) {
+        const box = detailRoot.querySelector("#calcResult");
+        if (!box) return;
+
+        const lines = [
+          `<div class="line"><strong>Total days:</strong> ${payload.totalDays}</div>`,
+          `<div class="line"><strong>Total required:</strong> ${payload.totalRequiredMg} mg</div>`,
+        ];
+
+        if (payload.mode === "unit_based") {
+          const r = payload.result;
+          lines.push(`<div class="line"><strong>Strength:</strong> ${r.mgPerUnit} mg per unit</div>`);
+          lines.push(`<div class="line"><strong>Need/day:</strong> ${r.unitsPerDay} units</div>`);
+          lines.push(`<div class="line"><strong>Total exact:</strong> ${r.totalUnitsExact} units</div>`);
+          lines.push(`<div class="line"><strong>Dispense (round up):</strong> ${r.totalUnitsRoundUp} units</div>`);
+        } else if (payload.mode === "liquid_based") {
+          const r = payload.result;
+          lines.push(`<div class="line"><strong>Concentration:</strong> ${r.mgPerMl} mg/mL</div>`);
+          lines.push(`<div class="line"><strong>Need/day:</strong> ${r.mlPerDay} mL/day</div>`);
+          lines.push(`<div class="line"><strong>Cth (5 mL)/day:</strong> ${r.cth5PerDay}</div>`);
+          lines.push(`<div class="line"><strong>C (15 mL)/day:</strong> ${r.c15PerDay}</div>`);
+          lines.push(`<div class="line"><strong>Total volume:</strong> ${r.totalMl} mL</div>`);
+          lines.push(`<div class="line"><strong>Total Cth (5 mL):</strong> ${r.totalCth5}</div>`);
+          lines.push(`<div class="line"><strong>Total C (15 mL):</strong> ${r.totalC15}</div>`);
+          if (r.bottlesNeededRoundUp !== null && r.bottlesNeededRoundUp !== undefined) {
+            lines.push(`<div class="line"><strong>Bottles needed:</strong> ${r.bottlesNeededRoundUp} bottle(s)</div>`);
+          }
+        } else {
+          lines.push(`<div class="line">${payload.result.message}</div>`);
+        }
+
+        lines.push(`<div class="line" style="color:#5c6b78; margin-top:6px;"><em>Basic estimate only. Verify clinically.</em></div>`);
+
+        box.classList.remove("hidden", "error");
+        box.innerHTML = lines.join("");
+      }
+
+      function renderDrugDetail() {
+        const drug = state.selectedDrug;
+        if (!drug) {
+          detailRoot.innerHTML = `<div class="empty">No drug selected.</div>`;
+          return;
+        }
+
+        const preps = Array.isArray(drug.preparations) ? drug.preparations : [];
+        const forms = formsForDrug(drug);
+
+        const cards = preps.map((prep) => `
+          <article class="prep">
+            <div class="prep-top">
+              <div class="prep-form">${prep.form || "-"}</div>
+              <div class="prep-strength">${prep.strength || "-"}</div>
+            </div>
+            <div class="prep-raw">${prep.text || "-"}</div>
+            <div class="prep-page">No: ${prep.item_no || "-"} · Page ${prep.page || "-"}</div>
+          </article>
+        `).join("");
+
+        const rows = preps.map((prep) => `
+          <tr>
+            <td>${prep.item_no || "-"}</td>
+            <td>${prep.form || "-"}</td>
+            <td>${prep.strength || "-"}</td>
+            <td>${prep.text || "-"}</td>
+            <td>${prep.page || "-"}</td>
+          </tr>
+        `).join("");
+
+        const prepOptions = preps.map((prep, i) => {
+          const label = `${i + 1}. ${prep.form || "-"} | ${prep.strength || prep.text || "-"}`;
+          return `<option value="${i}">${label}</option>`;
+        }).join("");
+
+        const prepView = state.viewMode === "table"
+          ? `
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr><th>No</th><th>Form</th><th>Strength</th><th>Raw text</th><th>Page</th></tr>
+                </thead>
+                <tbody>${rows || `<tr><td colspan="5"><em>No preparation parsed.</em></td></tr>`}</tbody>
+              </table>
+            </div>
+          `
+          : `<div class="cards">${cards || `<div class="empty">No preparation parsed.</div>`}</div>`;
+
+        const calcToggleLabel = state.calcExpanded ? "Hide Basic Calculator" : "Show Basic Calculator";
+
+        detailRoot.innerHTML = `
+          <div class="head">
+            <h2>${drug.name}</h2>
+            <span class="chip">${preps.length} preparations</span>
+          </div>
+
+          <div class="meta-grid">
+            <div class="meta-card"><div class="k">ID</div><div class="v">${drug.id}</div></div>
+            <div class="meta-card"><div class="k">Pages</div><div class="v">${(drug.pages || []).join(", ") || "-"}</div></div>
+            <div class="meta-card"><div class="k">Forms</div><div class="v">${forms.join(", ") || "-"}</div></div>
+          </div>
+
+          <div class="calc-card">
+            <div class="calc-head">
+              <div class="label" style="margin:0;">Basic Calculator</div>
+              <button id="calcToggle" class="calc-toggle">${calcToggleLabel}</button>
+            </div>
+
+            <div id="calcBody" class="${state.calcExpanded ? "" : "hidden"}">
+              <div class="calc-grid">
+                <div class="field" style="grid-column:1 / -1;">
+                  <label>Preparation</label>
+                  <select id="prepSelect" class="calc-select">${prepOptions || `<option value="">No preparation</option>`}</select>
+                </div>
+                <div class="field">
+                  <label>Dose target (mg/day)</label>
+                  <input id="doseInput" class="calc-input" type="number" min="0" step="0.01" value="1000" />
+                </div>
+                <div class="field">
+                  <label>Duration (weeks)</label>
+                  <input id="weekInput" class="calc-input" type="number" min="0" step="0.1" value="1" />
+                </div>
+                <div class="field">
+                  <label>Bottle volume (mL, optional)</label>
+                  <input id="bottleInput" class="calc-input" type="number" min="0" step="1" placeholder="e.g. 60" />
+                </div>
+              </div>
+
+              <div class="calc-actions">
+                <button id="calcBtn" class="calc-btn">Calculate</button>
+              </div>
+              <div id="calcResult" class="calc-result hidden"></div>
+            </div>
+          </div>
+
+          <div class="prep-head">
+            <div class="label">Preparations</div>
+            <div class="toggle">
+              <button class="${state.viewMode === "cards" ? "active" : ""}" data-view="cards">Cards</button>
+              <button class="${state.viewMode === "table" ? "active" : ""}" data-view="table">Table</button>
+            </div>
+          </div>
+
+          ${prepView}
+        `;
+
+        detailRoot.querySelectorAll('.toggle button').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            state.viewMode = btn.dataset.view;
+            renderDrugDetail();
+          });
+        });
+
+        detailRoot.querySelector('#calcToggle').addEventListener('click', () => {
+          state.calcExpanded = !state.calcExpanded;
+          renderDrugDetail();
+        });
+
+        const calcBtn = detailRoot.querySelector('#calcBtn');
+        if (calcBtn) {
+          calcBtn.addEventListener('click', () => {
+            try {
+              const prepIndex = Number.parseInt(detailRoot.querySelector('#prepSelect').value, 10);
+              const mgPerDay = toNum(detailRoot.querySelector('#doseInput').value);
+              const weeks = toNum(detailRoot.querySelector('#weekInput').value);
+              const bottle = toNum(detailRoot.querySelector('#bottleInput').value);
+
+              const payload = runBasicCalculationPayload(
+                state.selectedDrug,
+                prepIndex,
+                mgPerDay,
+                weeks,
+                Number.isFinite(bottle) ? bottle : null
+              );
+              renderCalcSuccess(payload);
+            } catch (err) {
+              renderCalcError(err.message || 'Calculation failed.');
+            }
+          });
+        }
+      }
+
+      async function selectSuggestion(id) {
+        const picked = state.suggestions.find((x) => x.id === id);
+        if (picked) {
+          searchInput.value = picked.name;
+        }
+        hideSuggestions();
+        state.calcExpanded = false;
+        state.selectedDrug = getDrugById(id);
+        renderDrugDetail();
+      }
+
+      async function runSuggestionSearch(query) {
+        const q = normalize(query).trim();
+        if (!q) {
+          state.suggestions = [];
+          state.activeIndex = -1;
+          searchMeta.textContent = 'Type to get recommendations.';
+          renderSuggestions();
+          return;
+        }
+
+        state.suggestions = searchDrugs(q, 12);
+        state.activeIndex = state.suggestions.length ? 0 : -1;
+        searchMeta.textContent = `${state.suggestions.length} suggestions for "${query}"`;
+        renderSuggestions();
+      }
+
+      let t = null;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(t);
+        const value = searchInput.value.trim();
+        t = setTimeout(() => runSuggestionSearch(value), 160);
+      });
+
+      searchInput.addEventListener('keydown', async (event) => {
+        if (suggestionsEl.classList.contains('hidden') || !state.suggestions.length) return;
+
+        if (event.key === 'ArrowDown') {
+          event.preventDefault();
+          state.activeIndex = (state.activeIndex + 1) % state.suggestions.length;
+          renderSuggestions();
+        } else if (event.key === 'ArrowUp') {
+          event.preventDefault();
+          state.activeIndex = (state.activeIndex - 1 + state.suggestions.length) % state.suggestions.length;
+          renderSuggestions();
+        } else if (event.key === 'Enter') {
+          event.preventDefault();
+          const active = state.suggestions[state.activeIndex] || state.suggestions[0];
+          if (active) await selectSuggestion(active.id);
+        } else if (event.key === 'Escape') {
+          hideSuggestions();
+        }
+      });
+
+      searchInput.addEventListener('focus', () => {
+        if (state.suggestions.length) suggestionsEl.classList.remove('hidden');
+      });
+
+      document.addEventListener('click', (event) => {
+        if (!event.target.closest('.autocomplete')) hideSuggestions();
+      });
+
+      async function boot() {
+        try {
+          const resp = await fetch('./data/formularium_preparations.json');
+          if (!resp.ok) throw new Error('Failed to load dataset');
+          state.drugs = await resp.json();
+          searchMeta.textContent = `Loaded ${state.drugs.length} drugs. Type to search.`;
+          await runSuggestionSearch('a');
+        } catch (error) {
+          searchMeta.textContent = 'Failed to load dataset.';
+          detailRoot.innerHTML = `<div class="empty">${error.message}</div>`;
+        }
+      }
+
+      boot();
+    </script>
+  </body>
+</html>
