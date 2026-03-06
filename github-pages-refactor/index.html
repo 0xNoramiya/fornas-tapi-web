@@ -537,6 +537,17 @@
         return NaN;
       }
 
+      function isTopicalForm(prep) {
+        const form = normalize(prep?.form);
+        return (
+          form.includes("salep") ||
+          form.includes("krim") ||
+          form.includes("gel") ||
+          form.includes("lotio") ||
+          form.includes("tulle")
+        );
+      }
+
       function parseStrength(prep) {
         const text = String(prep?.strength || prep?.text || "");
 
@@ -567,6 +578,28 @@
             mgPerUnit: toMg(toNum(m[1]), m[2]),
             source: m[0],
           };
+        }
+
+        const pctMatches = [...text.matchAll(/(\d+(?:[.,]\d+)?)\s*%/gi)];
+        if (pctMatches.length) {
+          const values = pctMatches
+            .map((x) => toNum(x[1]))
+            .filter((x) => Number.isFinite(x) && x > 0);
+          if (values.length) {
+            const totalPercent = values.reduce((a, b) => a + b, 0);
+            if (isTopicalForm(prep)) {
+              return {
+                mode: "mg_per_g",
+                mgPerG: totalPercent * 10,
+                source: pctMatches.map((x) => x[0]).join(" + "),
+              };
+            }
+            return {
+              mode: "mg_per_ml",
+              mgPerMl: totalPercent * 10,
+              source: pctMatches.map((x) => x[0]).join(" + "),
+            };
+          }
         }
 
         return { mode: "unsupported", source: null };
@@ -633,6 +666,20 @@
           };
         }
 
+        if (parsed.mode === "mg_per_g") {
+          const gPerDay = mgPerDay / parsed.mgPerG;
+          const totalG = totalMg / parsed.mgPerG;
+          return {
+            ...base,
+            mode: "topical_based",
+            result: {
+              mgPerG: r2(parsed.mgPerG),
+              gPerDay: r2(gPerDay),
+              totalG: r2(totalG),
+            },
+          };
+        }
+
         return {
           ...base,
           mode: "unsupported",
@@ -677,6 +724,11 @@
           if (r.bottlesNeededRoundUp !== null && r.bottlesNeededRoundUp !== undefined) {
             lines.push(`<div class="line"><strong>Bottles needed:</strong> ${r.bottlesNeededRoundUp} bottle(s)</div>`);
           }
+        } else if (payload.mode === "topical_based") {
+          const r = payload.result;
+          lines.push(`<div class="line"><strong>Concentration:</strong> ${r.mgPerG} mg/g</div>`);
+          lines.push(`<div class="line"><strong>Need/day:</strong> ${r.gPerDay} g/day</div>`);
+          lines.push(`<div class="line"><strong>Total amount:</strong> ${r.totalG} g</div>`);
         } else {
           lines.push(`<div class="line">${payload.result.message}</div>`);
         }

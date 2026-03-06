@@ -331,7 +331,8 @@
     "name": "amfoterisin B",
     "page_first": 49,
     "pages": [
-      49
+      49,
+      172
     ],
     "preparations": [
       {
@@ -351,6 +352,14 @@
         "strength": "50 mg",
         "notes": [],
         "page": 49
+      },
+      {
+        "item_no": "1",
+        "text": "salep mata 1%",
+        "form": "salep mata",
+        "strength": "1%",
+        "notes": [],
+        "page": 172
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
@@ -612,6 +621,25 @@
   },
   {
     "id": "FN0023",
+    "name": "anestetik lokal gigi, kombinasi",
+    "page_first": 132,
+    "pages": [
+      132
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "inj",
+        "form": "inj",
+        "strength": null,
+        "notes": [],
+        "page": 132
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0024",
     "name": "antasida, kombinasi",
     "page_first": 187,
     "pages": [
@@ -638,7 +666,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0024",
+    "id": "FN0025",
     "name": "anti-D (Rho(D)) imunoglobulin",
     "page_first": 126,
     "pages": [
@@ -657,8 +685,27 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0025",
-    "name": "antifungi, kombinasi KDT/FDC",
+    "id": "FN0026",
+    "name": "antibakteri, kombinasi KDT/FDC mengandung",
+    "page_first": 167,
+    "pages": [
+      167
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "salep",
+        "form": "salep",
+        "strength": "basitrasin 500 IU/g + polimiksin B 10.000 IU/g",
+        "notes": [],
+        "page": 167
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0027",
+    "name": "antifungi, kombinasi KDT/FDC mengandung",
     "page_first": 168,
     "pages": [
       168
@@ -668,7 +715,7 @@
         "item_no": "1",
         "text": "salep",
         "form": "salep",
-        "strength": null,
+        "strength": "asam benzoat 6% + asam salisilat 3%",
         "notes": [],
         "page": 168
       }
@@ -676,8 +723,8 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0026",
-    "name": "antihemoroid, kombinasi KDT/FDC",
+    "id": "FN0028",
+    "name": "antihemoroid, kombinasi KDT/FDC mengandung",
     "page_first": 191,
     "pages": [
       191
@@ -695,7 +742,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0027",
+    "id": "FN0029",
     "name": "aripiprazol",
     "page_first": 181,
     "pages": [
@@ -730,7 +777,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0028",
+    "id": "FN0030",
     "name": "artesunat",
     "page_first": 52,
     "pages": [
@@ -751,7 +798,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0029",
+    "id": "FN0031",
     "name": "asam asetat",
     "page_first": 213,
     "pages": [
@@ -765,20 +812,39 @@
         "strength": "2%",
         "notes": [],
         "page": 213
-      },
-      {
-        "item_no": "1",
-        "text": "susp 27,5 mcg/spray",
-        "form": "susp",
-        "strength": "27,5 mcg/spray",
-        "notes": [],
-        "page": 213
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0030",
+    "id": "FN0032",
+    "name": "asam asetilsalisilat (asetosal)",
+    "page_first": 156,
+    "pages": [
+      156
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "tab 80 mg",
+        "form": "tab",
+        "strength": "80 mg",
+        "notes": [],
+        "page": 156
+      },
+      {
+        "item_no": "2",
+        "text": "tab sal enterik 100 mg",
+        "form": "tab sal enterik",
+        "strength": "100 mg",
+        "notes": [],
+        "page": 156
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0033",
     "name": "asam askorbat (vitamin C)",
     "page_first": 214,
     "pages": [
@@ -805,7 +871,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0031",
+    "id": "FN0034",
     "name": "asam folat",
     "page_first": 112,
     "pages": [
@@ -840,7 +906,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0032",
+    "id": "FN0035",
     "name": "asam fusidat",
     "page_first": 167,
     "pages": [
@@ -868,7 +934,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0033",
+    "id": "FN0036",
     "name": "asam ibandronat",
     "page_first": 108,
     "pages": [
@@ -887,7 +953,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0034",
+    "id": "FN0037",
     "name": "asam mefenamat",
     "page_first": 12,
     "pages": [
@@ -914,7 +980,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0035",
+    "id": "FN0038",
     "name": "asam pipemidat",
     "page_first": 49,
     "pages": [
@@ -933,7 +999,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0036",
+    "id": "FN0039",
     "name": "asam retinoat",
     "page_first": 167,
     "pages": [
@@ -955,20 +1021,12 @@
         "strength": "0,1%",
         "notes": [],
         "page": 167
-      },
-      {
-        "item_no": "1",
-        "text": "salep",
-        "form": "salep",
-        "strength": null,
-        "notes": [],
-        "page": 167
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0037",
+    "id": "FN0040",
     "name": "asam salisilat",
     "page_first": 170,
     "pages": [
@@ -1003,7 +1061,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0038",
+    "id": "FN0041",
     "name": "asam traneksamat",
     "page_first": 113,
     "pages": [
@@ -1046,7 +1104,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0039",
+    "id": "FN0042",
     "name": "asam ursodeoksikolat",
     "page_first": 194,
     "pages": [
@@ -1065,7 +1123,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0040",
+    "id": "FN0043",
     "name": "asetazolamid",
     "page_first": 175,
     "pages": [
@@ -1079,12 +1137,20 @@
         "strength": "250 mg",
         "notes": [],
         "page": 175
+      },
+      {
+        "item_no": "30",
+        "text": "tab/minggu",
+        "form": "tab/minggu",
+        "strength": null,
+        "notes": [],
+        "page": 175
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0041",
+    "id": "FN0044",
     "name": "asiklovir",
     "page_first": 53,
     "pages": [
@@ -1137,7 +1203,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0042",
+    "id": "FN0045",
     "name": "asparaginase",
     "page_first": 93,
     "pages": [
@@ -1156,7 +1222,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0043",
+    "id": "FN0046",
     "name": "atapulgit",
     "page_first": 191,
     "pages": [
@@ -1175,7 +1241,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0044",
+    "id": "FN0047",
     "name": "atenolol",
     "page_first": 150,
     "pages": [
@@ -1211,7 +1277,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0045",
+    "id": "FN0048",
     "name": "atorvastatin",
     "page_first": 163,
     "pages": [
@@ -1233,28 +1299,12 @@
         "strength": "20 mg",
         "notes": [],
         "page": 164
-      },
-      {
-        "item_no": "1",
-        "text": "kaps 100 mg",
-        "form": "kaps",
-        "strength": "100 mg",
-        "notes": [],
-        "page": 164
-      },
-      {
-        "item_no": "2",
-        "text": "kaps 300 mg",
-        "form": "kaps",
-        "strength": "300 mg",
-        "notes": [],
-        "page": 164
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0046",
+    "id": "FN0049",
     "name": "atrakurium",
     "page_first": 186,
     "pages": [
@@ -1273,7 +1323,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0047",
+    "id": "FN0050",
     "name": "atropin",
     "page_first": 17,
     "pages": [
@@ -1349,7 +1399,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0048",
+    "id": "FN0051",
     "name": "azatioprin",
     "page_first": 102,
     "pages": [
@@ -1368,7 +1418,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0049",
+    "id": "FN0052",
     "name": "azitromisin",
     "page_first": 31,
     "pages": [
@@ -1420,7 +1470,53 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0050",
+    "id": "FN0053",
+    "name": "bahan tumpatan sementara",
+    "page_first": 132,
+    "pages": [
+      132
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "serb",
+        "form": "serb",
+        "strength": null,
+        "notes": [],
+        "page": 132
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0054",
+    "name": "barium sulfat",
+    "page_first": 127,
+    "pages": [
+      127
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "serb 92 g/100 g",
+        "form": "serb",
+        "strength": "92 g/100 g",
+        "notes": [],
+        "page": 127
+      },
+      {
+        "item_no": "2",
+        "text": "susp 95%",
+        "form": "susp",
+        "strength": "95%",
+        "notes": [],
+        "page": 127
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0055",
     "name": "basiliksimab",
     "page_first": 102,
     "pages": [
@@ -1439,7 +1535,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0051",
+    "id": "FN0056",
     "name": "bedak salisil",
     "page_first": 170,
     "pages": [
@@ -1458,7 +1554,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0052",
+    "id": "FN0057",
     "name": "bedakuilin fumarat",
     "page_first": 42,
     "pages": [
@@ -1477,7 +1573,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0053",
+    "id": "FN0058",
     "name": "bendamustin",
     "page_first": 71,
     "pages": [
@@ -1504,7 +1600,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0054",
+    "id": "FN0059",
     "name": "benzatin benzilpenisilin",
     "page_first": 23,
     "pages": [
@@ -1535,7 +1631,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0055",
+    "id": "FN0060",
     "name": "beraprost sodium",
     "page_first": 155,
     "pages": [
@@ -1554,7 +1650,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0056",
+    "id": "FN0061",
     "name": "betahistin",
     "page_first": 71,
     "pages": [
@@ -1581,7 +1677,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0057",
+    "id": "FN0062",
     "name": "betaksolol",
     "page_first": 175,
     "pages": [
@@ -1600,7 +1696,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0058",
+    "id": "FN0063",
     "name": "betametason",
     "page_first": 168,
     "pages": [
@@ -1636,7 +1732,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0059",
+    "id": "FN0064",
     "name": "bikalutamid",
     "page_first": 99,
     "pages": [
@@ -1663,7 +1759,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0060",
+    "id": "FN0065",
     "name": "bisakodil",
     "page_first": 192,
     "pages": [
@@ -1698,7 +1794,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0061",
+    "id": "FN0066",
     "name": "bisoprolol",
     "page_first": 152,
     "pages": [
@@ -1766,7 +1862,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0062",
+    "id": "FN0067",
     "name": "bleomisin",
     "page_first": 80,
     "pages": [
@@ -1785,7 +1881,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0063",
+    "id": "FN0068",
     "name": "bortezomib",
     "page_first": 93,
     "pages": [
@@ -1812,7 +1908,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0064",
+    "id": "FN0069",
     "name": "brentuksimab vedotin",
     "page_first": 91,
     "pages": [
@@ -1831,7 +1927,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0065",
+    "id": "FN0070",
     "name": "brinzolamid",
     "page_first": 175,
     "pages": [
@@ -1850,7 +1946,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0066",
+    "id": "FN0071",
     "name": "bromokriptin",
     "page_first": 147,
     "pages": [
@@ -1869,7 +1965,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0067",
+    "id": "FN0072",
     "name": "budesonid",
     "page_first": 195,
     "pages": [
@@ -1889,7 +1985,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0068",
+    "id": "FN0073",
     "name": "bupivakain",
     "page_first": 15,
     "pages": [
@@ -1908,7 +2004,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0069",
+    "id": "FN0074",
     "name": "bupivakain heavy",
     "page_first": 15,
     "pages": [
@@ -1927,7 +2023,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0070",
+    "id": "FN0075",
     "name": "busulfan",
     "page_first": 72,
     "pages": [
@@ -1954,7 +2050,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0071",
+    "id": "FN0076",
     "name": "cisaprid",
     "page_first": 188,
     "pages": [
@@ -1973,7 +2069,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0072",
+    "id": "FN0077",
     "name": "Co-formulation 70% insulin degludec",
     "page_first": 143,
     "pages": [
@@ -1994,7 +2090,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0073",
+    "id": "FN0078",
     "name": "dabigatran eteksilat",
     "page_first": 113,
     "pages": [
@@ -2021,7 +2117,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0074",
+    "id": "FN0079",
     "name": "dakarbazin",
     "page_first": 72,
     "pages": [
@@ -2048,7 +2144,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0075",
+    "id": "FN0080",
     "name": "daklatasvir",
     "page_first": 63,
     "pages": [
@@ -2075,7 +2171,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0076",
+    "id": "FN0081",
     "name": "daktinomisin",
     "page_first": 81,
     "pages": [
@@ -2096,7 +2192,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0077",
+    "id": "FN0082",
     "name": "dapson",
     "page_first": 36,
     "pages": [
@@ -2115,7 +2211,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0078",
+    "id": "FN0083",
     "name": "daunorubisin",
     "page_first": 81,
     "pages": [
@@ -2134,7 +2230,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0079",
+    "id": "FN0084",
     "name": "deferasiroks",
     "page_first": 116,
     "pages": [
@@ -2177,7 +2273,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0080",
+    "id": "FN0085",
     "name": "deferipron",
     "page_first": 116,
     "pages": [
@@ -2212,7 +2308,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0081",
+    "id": "FN0086",
     "name": "deferoksamin",
     "page_first": 117,
     "pages": [
@@ -2231,7 +2327,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0082",
+    "id": "FN0087",
     "name": "deksametason",
     "page_first": 17,
     "pages": [
@@ -2293,7 +2389,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0083",
+    "id": "FN0088",
     "name": "deksmedetomidin",
     "page_first": 16,
     "pages": [
@@ -2312,7 +2408,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0084",
+    "id": "FN0089",
     "name": "delamanid",
     "page_first": 43,
     "pages": [
@@ -2331,7 +2427,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0085",
+    "id": "FN0090",
     "name": "desfluran",
     "page_first": 16,
     "pages": [
@@ -2350,7 +2446,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0086",
+    "id": "FN0091",
     "name": "desmopresin",
     "page_first": 134,
     "pages": [
@@ -2377,7 +2473,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0087",
+    "id": "FN0092",
     "name": "desogestrel",
     "page_first": 145,
     "pages": [
@@ -2396,7 +2492,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0088",
+    "id": "FN0093",
     "name": "desoksimetason",
     "page_first": 168,
     "pages": [
@@ -2423,7 +2519,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0089",
+    "id": "FN0094",
     "name": "dialisa peritoneal",
     "page_first": 170,
     "pages": [
@@ -2442,7 +2538,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0090",
+    "id": "FN0095",
     "name": "diazepam",
     "page_first": 17,
     "pages": [
@@ -2487,7 +2583,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0091",
+    "id": "FN0096",
     "name": "dienogest",
     "page_first": 144,
     "pages": [
@@ -2506,7 +2602,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0092",
+    "id": "FN0097",
     "name": "dietilkarbamazin",
     "page_first": 22,
     "pages": [
@@ -2525,7 +2621,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0093",
+    "id": "FN0098",
     "name": "difenhidramin",
     "page_first": 17,
     "pages": [
@@ -2546,7 +2642,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0094",
+    "id": "FN0099",
     "name": "diflukortolon valerat",
     "page_first": 168,
     "pages": [
@@ -2565,7 +2661,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0095",
+    "id": "FN0100",
     "name": "digoksin",
     "page_first": 151,
     "pages": [
@@ -2609,7 +2705,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0096",
+    "id": "FN0101",
     "name": "diltiazem",
     "page_first": 150,
     "pages": [
@@ -2678,7 +2774,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0097",
+    "id": "FN0102",
     "name": "dimenhidrinat",
     "page_first": 189,
     "pages": [
@@ -2697,7 +2793,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0098",
+    "id": "FN0103",
     "name": "dinatrium edetat",
     "page_first": 177,
     "pages": [
@@ -2716,7 +2812,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0099",
+    "id": "FN0104",
     "name": "dinatrium klodronat",
     "page_first": 109,
     "pages": [
@@ -2735,7 +2831,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0100",
+    "id": "FN0105",
     "name": "dobutamin",
     "page_first": 162,
     "pages": [
@@ -2770,7 +2866,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0101",
+    "id": "FN0106",
     "name": "doksazosin",
     "page_first": 133,
     "pages": [
@@ -2814,7 +2910,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0102",
+    "id": "FN0107",
     "name": "doksisiklin",
     "page_first": 29,
     "pages": [
@@ -2850,7 +2946,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0103",
+    "id": "FN0108",
     "name": "doksorubisin",
     "page_first": 81,
     "pages": [
@@ -2881,7 +2977,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0104",
+    "id": "FN0109",
     "name": "dolutegravir",
     "page_first": 62,
     "pages": [
@@ -2908,7 +3004,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0105",
+    "id": "FN0110",
     "name": "domperidon",
     "page_first": 189,
     "pages": [
@@ -2943,7 +3039,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0106",
+    "id": "FN0111",
     "name": "donepezil",
     "page_first": 187,
     "pages": [
@@ -2970,7 +3066,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0107",
+    "id": "FN0112",
     "name": "dopamin",
     "page_first": 163,
     "pages": [
@@ -2989,7 +3085,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0108",
+    "id": "FN0113",
     "name": "dosetaksel",
     "page_first": 78,
     "pages": [
@@ -3024,7 +3120,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0109",
+    "id": "FN0114",
     "name": "DTPA (diethylenetriamine pentaacetic acid)",
     "page_first": 128,
     "pages": [
@@ -3043,7 +3139,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0110",
+    "id": "FN0115",
     "name": "dutasterid",
     "page_first": 133,
     "pages": [
@@ -3062,7 +3158,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0111",
+    "id": "FN0116",
     "name": "efavirenz",
     "page_first": 58,
     "pages": [
@@ -3089,7 +3185,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0112",
+    "id": "FN0117",
     "name": "efedrin",
     "page_first": 167,
     "pages": [
@@ -3108,7 +3204,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0113",
+    "id": "FN0118",
     "name": "eksemestan",
     "page_first": 99,
     "pages": [
@@ -3127,7 +3223,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0114",
+    "id": "FN0119",
     "name": "eltrombopag",
     "page_first": 118,
     "pages": [
@@ -3154,7 +3250,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0115",
+    "id": "FN0120",
     "name": "enoksaparin sodium",
     "page_first": 113,
     "pages": [
@@ -3173,7 +3269,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0116",
+    "id": "FN0121",
     "name": "entekavir",
     "page_first": 64,
     "pages": [
@@ -3200,7 +3296,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0117",
+    "id": "FN0122",
     "name": "epinefrin (adrenalin)",
     "page_first": 17,
     "pages": [
@@ -3237,7 +3333,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0118",
+    "id": "FN0123",
     "name": "epirubisin",
     "page_first": 82,
     "pages": [
@@ -3264,7 +3360,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0119",
+    "id": "FN0124",
     "name": "ergotamin",
     "page_first": 70,
     "pages": [
@@ -3283,7 +3379,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0120",
+    "id": "FN0125",
     "name": "eribulin",
     "page_first": 93,
     "pages": [
@@ -3302,7 +3398,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0121",
+    "id": "FN0126",
     "name": "eritromisin",
     "page_first": 31,
     "pages": [
@@ -3337,7 +3433,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0122",
+    "id": "FN0127",
     "name": "eritropoietin-alfa",
     "page_first": 118,
     "pages": [
@@ -3396,7 +3492,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0123",
+    "id": "FN0128",
     "name": "eritropoietin-beta",
     "page_first": 121,
     "pages": [
@@ -3415,7 +3511,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0124",
+    "id": "FN0129",
     "name": "erlotinib",
     "page_first": 85,
     "pages": [
@@ -3442,7 +3538,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0125",
+    "id": "FN0130",
     "name": "esitalopram",
     "page_first": 180,
     "pages": [
@@ -3469,7 +3565,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0126",
+    "id": "FN0131",
     "name": "esomeprazol",
     "page_first": 188,
     "pages": [
@@ -3490,7 +3586,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0127",
+    "id": "FN0132",
     "name": "estrogen terkonjugasi",
     "page_first": 144,
     "pages": [
@@ -3509,7 +3605,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0128",
+    "id": "FN0133",
     "name": "etambutol",
     "page_first": 43,
     "pages": [
@@ -3544,7 +3640,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0129",
+    "id": "FN0134",
     "name": "etanercept",
     "page_first": 102,
     "pages": [
@@ -3571,7 +3667,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0130",
+    "id": "FN0135",
     "name": "etoposid",
     "page_first": 78,
     "pages": [
@@ -3590,7 +3686,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0131",
+    "id": "FN0136",
     "name": "eugenol",
     "page_first": 130,
     "pages": [
@@ -3609,7 +3705,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0132",
+    "id": "FN0137",
     "name": "everolimus",
     "page_first": 103,
     "pages": [
@@ -3644,7 +3740,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0133",
+    "id": "FN0138",
     "name": "faktor IX",
     "page_first": 125,
     "pages": [
@@ -3687,7 +3783,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0134",
+    "id": "FN0139",
     "name": "faktor koagulasi II, faktor koagulasi",
     "page_first": 114,
     "pages": [
@@ -3714,7 +3810,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0135",
+    "id": "FN0140",
     "name": "faktor VIIa (rekombinan)",
     "page_first": 122,
     "pages": [
@@ -3733,7 +3829,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0136",
+    "id": "FN0141",
     "name": "faktor VIII (konsentrat)",
     "page_first": 123,
     "pages": [
@@ -3784,7 +3880,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0137",
+    "id": "FN0142",
     "name": "febuksostat",
     "page_first": 15,
     "pages": [
@@ -3803,7 +3899,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0138",
+    "id": "FN0143",
     "name": "fenilefrin HCl",
     "page_first": 167,
     "pages": [
@@ -3831,7 +3927,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0139",
+    "id": "FN0144",
     "name": "fenitoin",
     "page_first": 20,
     "pages": [
@@ -3866,7 +3962,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0140",
+    "id": "FN0145",
     "name": "fenobarbital",
     "page_first": 20,
     "pages": [
@@ -3917,7 +4013,34 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0141",
+    "id": "FN0146",
+    "name": "fenofibrat",
+    "page_first": 164,
+    "pages": [
+      164
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "kaps 100 mg",
+        "form": "kaps",
+        "strength": "100 mg",
+        "notes": [],
+        "page": 164
+      },
+      {
+        "item_no": "2",
+        "text": "kaps 300 mg",
+        "form": "kaps",
+        "strength": "300 mg",
+        "notes": [],
+        "page": 164
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0147",
     "name": "fenoksimetil penisilin (penisilin V)",
     "page_first": 23,
     "pages": [
@@ -3944,7 +4067,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0142",
+    "id": "FN0148",
     "name": "fenoterol HBr",
     "page_first": 195,
     "pages": [
@@ -3963,7 +4086,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0143",
+    "id": "FN0149",
     "name": "fentanil",
     "page_first": 9,
     "pages": [
@@ -4008,7 +4131,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0144",
+    "id": "FN0150",
     "name": "fero sulfat",
     "page_first": 112,
     "pages": [
@@ -4035,7 +4158,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0145",
+    "id": "FN0151",
     "name": "filgrastim",
     "page_first": 121,
     "pages": [
@@ -4054,7 +4177,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0146",
+    "id": "FN0152",
     "name": "finasterid",
     "page_first": 133,
     "pages": [
@@ -4073,7 +4196,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0147",
+    "id": "FN0153",
     "name": "fitomenadion (vitamin K1)",
     "page_first": 114,
     "pages": [
@@ -4112,7 +4235,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0148",
+    "id": "FN0154",
     "name": "fludarabin",
     "page_first": 74,
     "pages": [
@@ -4139,7 +4262,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0149",
+    "id": "FN0155",
     "name": "fludrokortison",
     "page_first": 148,
     "pages": [
@@ -4158,7 +4281,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0150",
+    "id": "FN0156",
     "name": "flufenazin dekanoat",
     "page_first": 181,
     "pages": [
@@ -4179,7 +4302,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0151",
+    "id": "FN0157",
     "name": "flukonazol",
     "page_first": 50,
     "pages": [
@@ -4206,7 +4329,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0152",
+    "id": "FN0158",
     "name": "fluoksetin",
     "page_first": 180,
     "pages": [
@@ -4250,7 +4373,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0153",
+    "id": "FN0159",
     "name": "fluor",
     "page_first": 131,
     "pages": [
@@ -4264,20 +4387,12 @@
         "strength": "1 mg",
         "notes": [],
         "page": 131
-      },
-      {
-        "item_no": "1",
-        "text": "serb",
-        "form": "serb",
-        "strength": null,
-        "notes": [],
-        "page": 132
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0154",
+    "id": "FN0160",
     "name": "fluorometolon",
     "page_first": 174,
     "pages": [
@@ -4296,7 +4411,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0155",
+    "id": "FN0161",
     "name": "fluorourasil",
     "page_first": 74,
     "pages": [
@@ -4315,7 +4430,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0156",
+    "id": "FN0162",
     "name": "flusinolon asetonid",
     "page_first": 169,
     "pages": [
@@ -4342,7 +4457,45 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0157",
+    "id": "FN0163",
+    "name": "flutikason furoat",
+    "page_first": 213,
+    "pages": [
+      213
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "susp 27,5 mcg/spray",
+        "form": "susp",
+        "strength": "27,5 mcg/spray",
+        "notes": [],
+        "page": 213
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0164",
+    "name": "flutikason propionat",
+    "page_first": 196,
+    "pages": [
+      196
+    ],
+    "preparations": [
+      {
+        "item_no": "5",
+        "text": "vial/hari,",
+        "form": "vial/hari,",
+        "strength": null,
+        "notes": [],
+        "page": 196
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0165",
     "name": "fluvoksamin",
     "page_first": 180,
     "pages": [
@@ -4386,7 +4539,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0158",
+    "id": "FN0166",
     "name": "fondaparinuks",
     "page_first": 114,
     "pages": [
@@ -4405,7 +4558,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0159",
+    "id": "FN0167",
     "name": "formokresol",
     "page_first": 130,
     "pages": [
@@ -4424,7 +4577,26 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0160",
+    "id": "FN0168",
+    "name": "framisetin sulfat",
+    "page_first": 167,
+    "pages": [
+      167
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "tulle 1%",
+        "form": "tulle",
+        "strength": "1%",
+        "notes": [],
+        "page": 167
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0169",
     "name": "fulvestran",
     "page_first": 100,
     "pages": [
@@ -4443,7 +4615,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0161",
+    "id": "FN0170",
     "name": "furosemid",
     "page_first": 133,
     "pages": [
@@ -4491,7 +4663,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0162",
+    "id": "FN0171",
     "name": "gabapentin",
     "page_first": 15,
     "pages": [
@@ -4518,7 +4690,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0163",
+    "id": "FN0172",
     "name": "gadobutrol",
     "page_first": 127,
     "pages": [
@@ -4537,7 +4709,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0164",
+    "id": "FN0173",
     "name": "gadoksetat disodium",
     "page_first": 127,
     "pages": [
@@ -4556,7 +4728,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0165",
+    "id": "FN0174",
     "name": "gadoteric acid",
     "page_first": 127,
     "pages": [
@@ -4575,7 +4747,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0166",
+    "id": "FN0175",
     "name": "gansiklovir",
     "page_first": 53,
     "pages": [
@@ -4594,7 +4766,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0167",
+    "id": "FN0176",
     "name": "garam oralit",
     "page_first": 171,
     "pages": [
@@ -4609,12 +4781,20 @@
         "strength": null,
         "notes": [],
         "page": 171
+      },
+      {
+        "item_no": "1",
+        "text": "serb",
+        "form": "serb",
+        "strength": null,
+        "notes": [],
+        "page": 191
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0168",
+    "id": "FN0177",
     "name": "gefitinib",
     "page_first": 85,
     "pages": [
@@ -4633,7 +4813,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0169",
+    "id": "FN0178",
     "name": "gemsitabin",
     "page_first": 75,
     "pages": [
@@ -4660,7 +4840,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0170",
+    "id": "FN0179",
     "name": "gentamisin",
     "page_first": 32,
     "pages": [
@@ -4704,7 +4884,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0171",
+    "id": "FN0180",
     "name": "glibenklamid",
     "page_first": 134,
     "pages": [
@@ -4731,7 +4911,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0172",
+    "id": "FN0181",
     "name": "gliklazid",
     "page_first": 134,
     "pages": [
@@ -4766,7 +4946,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0173",
+    "id": "FN0182",
     "name": "glikopironium",
     "page_first": 202,
     "pages": [
@@ -4785,7 +4965,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0174",
+    "id": "FN0183",
     "name": "glikuidon",
     "page_first": 134,
     "pages": [
@@ -4804,7 +4984,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0175",
+    "id": "FN0184",
     "name": "glimepirid",
     "page_first": 134,
     "pages": [
@@ -4847,7 +5027,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0176",
+    "id": "FN0185",
     "name": "glipizid",
     "page_first": 134,
     "pages": [
@@ -4874,7 +5054,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0177",
+    "id": "FN0186",
     "name": "gliseril trinitrat",
     "page_first": 150,
     "pages": [
@@ -4925,7 +5105,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0178",
+    "id": "FN0187",
     "name": "gliserol",
     "page_first": 175,
     "pages": [
@@ -4940,20 +5120,12 @@
         "strength": "50%",
         "notes": [],
         "page": 175
-      },
-      {
-        "item_no": "1",
-        "text": "tts mata",
-        "form": "tts mata",
-        "strength": null,
-        "notes": [],
-        "page": 176
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0179",
+    "id": "FN0188",
     "name": "goserelin asetat",
     "page_first": 96,
     "pages": [
@@ -4966,6 +5138,14 @@
         "text": "inj 3,6 mg/depot",
         "form": "inj",
         "strength": "3,6 mg/depot",
+        "notes": [],
+        "page": 96
+      },
+      {
+        "item_no": "1",
+        "text": "vial/bulan",
+        "form": "vial/bulan",
+        "strength": null,
         "notes": [],
         "page": 96
       },
@@ -4984,12 +5164,20 @@
         "strength": "3,6 mg/depot",
         "notes": [],
         "page": 149
+      },
+      {
+        "item_no": "3",
+        "text": "vial/kasus",
+        "form": "vial/kasus",
+        "strength": null,
+        "notes": [],
+        "page": 149
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0180",
+    "id": "FN0189",
     "name": "green pit viper antivenin",
     "page_first": 207,
     "pages": [
@@ -5008,7 +5196,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0181",
+    "id": "FN0190",
     "name": "griseofulvin",
     "page_first": 50,
     "pages": [
@@ -5043,7 +5231,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0182",
+    "id": "FN0191",
     "name": "haloperidol",
     "page_first": 182,
     "pages": [
@@ -5104,7 +5292,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0183",
+    "id": "FN0192",
     "name": "haloperidol dekanoat",
     "page_first": 182,
     "pages": [
@@ -5123,7 +5311,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0184",
+    "id": "FN0193",
     "name": "hemato polivalent snake antivenin",
     "page_first": 207,
     "pages": [
@@ -5142,7 +5330,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0185",
+    "id": "FN0194",
     "name": "hemodialisa",
     "page_first": 170,
     "pages": [
@@ -5169,7 +5357,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0186",
+    "id": "FN0195",
     "name": "heparin, Na (non porcine)",
     "page_first": 115,
     "pages": [
@@ -5185,20 +5373,12 @@
           "i.v./s.k."
         ],
         "page": 115
-      },
-      {
-        "item_no": "1",
-        "text": "inj 9.500 AXa/mL",
-        "form": "inj",
-        "strength": "9.500 AXa/mL",
-        "notes": [],
-        "page": 115
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0187",
+    "id": "FN0196",
     "name": "hepatitis B imunoglobulin (human)",
     "page_first": 207,
     "pages": [
@@ -5217,7 +5397,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0188",
+    "id": "FN0197",
     "name": "hidrogen peroksida",
     "page_first": 213,
     "pages": [
@@ -5236,7 +5416,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0189",
+    "id": "FN0198",
     "name": "hidroklorotiazid",
     "page_first": 133,
     "pages": [
@@ -5264,7 +5444,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0190",
+    "id": "FN0199",
     "name": "hidrokortison",
     "page_first": 17,
     "pages": [
@@ -5317,7 +5497,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0191",
+    "id": "FN0200",
     "name": "hidroksiklorokuin",
     "page_first": 103,
     "pages": [
@@ -5336,7 +5516,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0192",
+    "id": "FN0201",
     "name": "hidroksiurea",
     "page_first": 94,
     "pages": [
@@ -5355,7 +5535,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0193",
+    "id": "FN0202",
     "name": "hidromorfon",
     "page_first": 9,
     "pages": [
@@ -5382,7 +5562,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0194",
+    "id": "FN0203",
     "name": "hiosin butilbromida",
     "page_first": 191,
     "pages": [
@@ -5409,7 +5589,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0195",
+    "id": "FN0204",
     "name": "homatropin",
     "page_first": 175,
     "pages": [
@@ -5428,7 +5608,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0196",
+    "id": "FN0205",
     "name": "human tetanus imunoglobulin",
     "page_first": 207,
     "pages": [
@@ -5459,7 +5639,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0197",
+    "id": "FN0206",
     "name": "ibuprofen",
     "page_first": 12,
     "pages": [
@@ -5479,6 +5659,14 @@
         "text": "tab 400 mg",
         "form": "tab",
         "strength": "400 mg",
+        "notes": [],
+        "page": 12
+      },
+      {
+        "item_no": "14",
+        "text": "tab/kasus",
+        "form": "tab/kasus",
+        "strength": null,
         "notes": [],
         "page": 12
       },
@@ -5510,7 +5698,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0198",
+    "id": "FN0207",
     "name": "idarubisin",
     "page_first": 82,
     "pages": [
@@ -5531,7 +5719,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0199",
+    "id": "FN0208",
     "name": "ifosfamid",
     "page_first": 73,
     "pages": [
@@ -5566,7 +5754,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0200",
+    "id": "FN0209",
     "name": "iloprost",
     "page_first": 155,
     "pages": [
@@ -5585,7 +5773,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0201",
+    "id": "FN0210",
     "name": "imatinib mesilat",
     "page_first": 86,
     "pages": [
@@ -5612,7 +5800,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0202",
+    "id": "FN0211",
     "name": "imidafenasin",
     "page_first": 205,
     "pages": [
@@ -5626,12 +5814,36 @@
         "strength": "0,1 mg",
         "notes": [],
         "page": 206
+      },
+      {
+        "item_no": "2",
+        "text": "solifenasin",
+        "form": "solifenasin",
+        "strength": null,
+        "notes": [],
+        "page": 206
+      },
+      {
+        "item_no": "1",
+        "text": "tab 5 mg",
+        "form": "tab",
+        "strength": "5 mg",
+        "notes": [],
+        "page": 206
+      },
+      {
+        "item_no": "2",
+        "text": "tab 10 mg",
+        "form": "tab",
+        "strength": "10 mg",
+        "notes": [],
+        "page": 206
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0203",
+    "id": "FN0212",
     "name": "imidapril",
     "page_first": 153,
     "pages": [
@@ -5658,7 +5870,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0204",
+    "id": "FN0213",
     "name": "imunoglobulin intravena",
     "page_first": 207,
     "pages": [
@@ -5685,7 +5897,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0205",
+    "id": "FN0214",
     "name": "indakaterol",
     "page_first": 202,
     "pages": [
@@ -5712,7 +5924,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0206",
+    "id": "FN0215",
     "name": "insulin detemir",
     "page_first": 138,
     "pages": [
@@ -5733,7 +5945,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0207",
+    "id": "FN0216",
     "name": "insulin glargine",
     "page_first": 139,
     "pages": [
@@ -5764,7 +5976,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0208",
+    "id": "FN0217",
     "name": "insulin NPH (Neutral Protamine Hagedorn)",
     "page_first": 136,
     "pages": [
@@ -5785,7 +5997,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0209",
+    "id": "FN0218",
     "name": "insulin regular",
     "page_first": 137,
     "pages": [
@@ -5806,7 +6018,26 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0210",
+    "id": "FN0219",
+    "name": "iodiksanol",
+    "page_first": 127,
+    "pages": [
+      127
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "inj 320 mg Iodium/mL",
+        "form": "inj",
+        "strength": "320 mg Iodium/mL",
+        "notes": [],
+        "page": 127
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0220",
     "name": "iodium 131",
     "page_first": 128,
     "pages": [
@@ -5834,7 +6065,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0211",
+    "id": "FN0221",
     "name": "ioheksol",
     "page_first": 127,
     "pages": [
@@ -5861,7 +6092,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0212",
+    "id": "FN0222",
     "name": "iopamidol",
     "page_first": 127,
     "pages": [
@@ -5888,7 +6119,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0213",
+    "id": "FN0223",
     "name": "ipratropium bromida",
     "page_first": 196,
     "pages": [
@@ -5916,7 +6147,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0214",
+    "id": "FN0224",
     "name": "irbesartan",
     "page_first": 153,
     "pages": [
@@ -5943,7 +6174,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0215",
+    "id": "FN0225",
     "name": "irinotekan",
     "page_first": 79,
     "pages": [
@@ -5962,7 +6193,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0216",
+    "id": "FN0226",
     "name": "isofluran",
     "page_first": 16,
     "pages": [
@@ -5981,7 +6212,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0217",
+    "id": "FN0227",
     "name": "isoniazid",
     "page_first": 43,
     "pages": [
@@ -6008,7 +6239,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0218",
+    "id": "FN0228",
     "name": "isosorbid dinitrat",
     "page_first": 150,
     "pages": [
@@ -6056,7 +6287,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0219",
+    "id": "FN0229",
     "name": "itrakonazol",
     "page_first": 50,
     "pages": [
@@ -6075,7 +6306,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0220",
+    "id": "FN0230",
     "name": "ivabradin",
     "page_first": 150,
     "pages": [
@@ -6103,7 +6334,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0221",
+    "id": "FN0231",
     "name": "ivermektin",
     "page_first": 22,
     "pages": [
@@ -6122,7 +6353,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0222",
+    "id": "FN0232",
     "name": "kafein",
     "page_first": 205,
     "pages": [
@@ -6141,7 +6372,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0223",
+    "id": "FN0233",
     "name": "kalamin",
     "page_first": 170,
     "pages": [
@@ -6160,7 +6391,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0224",
+    "id": "FN0234",
     "name": "kalium aspartat",
     "page_first": 171,
     "pages": [
@@ -6174,20 +6405,12 @@
         "strength": "300 mg",
         "notes": [],
         "page": 171
-      },
-      {
-        "item_no": "1",
-        "text": "tab 500 mg",
-        "form": "tab",
-        "strength": "500 mg",
-        "notes": [],
-        "page": 171
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0225",
+    "id": "FN0235",
     "name": "kalium klorida",
     "page_first": 171,
     "pages": [
@@ -6206,7 +6429,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0226",
+    "id": "FN0236",
     "name": "kalsitriol",
     "page_first": 214,
     "pages": [
@@ -6233,7 +6456,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0227",
+    "id": "FN0237",
     "name": "kalsium folinat (leukovorin, Ca)",
     "page_first": 109,
     "pages": [
@@ -6260,7 +6483,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0228",
+    "id": "FN0238",
     "name": "kalsium glukonat",
     "page_first": 18,
     "pages": [
@@ -6288,7 +6511,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0229",
+    "id": "FN0239",
     "name": "kalsium karbonat (setara dengan 500 mg Ca elemental)",
     "page_first": 214,
     "pages": [
@@ -6307,7 +6530,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0230",
+    "id": "FN0240",
     "name": "kalsium laktat (kalk)",
     "page_first": 214,
     "pages": [
@@ -6326,7 +6549,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0231",
+    "id": "FN0241",
     "name": "kalsium polistiren sulfonat",
     "page_first": 217,
     "pages": [
@@ -6345,7 +6568,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0232",
+    "id": "FN0242",
     "name": "kandesartan",
     "page_first": 153,
     "pages": [
@@ -6389,7 +6612,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0233",
+    "id": "FN0243",
     "name": "kapesitabin",
     "page_first": 75,
     "pages": [
@@ -6408,7 +6631,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0234",
+    "id": "FN0244",
     "name": "kaptopril",
     "page_first": 153,
     "pages": [
@@ -6468,7 +6691,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0235",
+    "id": "FN0245",
     "name": "karbamazepin",
     "page_first": 15,
     "pages": [
@@ -6504,7 +6727,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0236",
+    "id": "FN0246",
     "name": "karbimazol",
     "page_first": 147,
     "pages": [
@@ -6523,7 +6746,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0237",
+    "id": "FN0247",
     "name": "karbogliserin",
     "page_first": 213,
     "pages": [
@@ -6542,7 +6765,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0238",
+    "id": "FN0248",
     "name": "karboksimetilselulosa",
     "page_first": 177,
     "pages": [
@@ -6561,7 +6784,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0239",
+    "id": "FN0249",
     "name": "karboplatin",
     "page_first": 94,
     "pages": [
@@ -6580,7 +6803,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0240",
+    "id": "FN0250",
     "name": "karvedilol",
     "page_first": 162,
     "pages": [
@@ -6607,7 +6830,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0241",
+    "id": "FN0251",
     "name": "KDT/FDC mengandung",
     "page_first": 44,
     "pages": [
@@ -6620,15 +6843,23 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "rifampisin 150 mg + isoniazid 75 mg",
         "notes": [],
         "page": 45
       },
       {
         "item_no": "1",
+        "text": "tab/5−8 kgBB,",
+        "form": "tab",
+        "strength": "5−8 kgBB",
+        "notes": [],
+        "page": 46
+      },
+      {
+        "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "rifampisin 75 mg + isoniazid 50 mg + pirazinamid 150 mg",
         "notes": [],
         "page": 46
       }
@@ -6636,7 +6867,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0242",
+    "id": "FN0252",
     "name": "ketamin",
     "page_first": 16,
     "pages": [
@@ -6667,7 +6898,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0243",
+    "id": "FN0253",
     "name": "ketokonazol",
     "page_first": 51,
     "pages": [
@@ -6690,12 +6921,20 @@
         "strength": "2%",
         "notes": [],
         "page": 168
+      },
+      {
+        "item_no": "2",
+        "text": "scalp sol 2%",
+        "form": "scalp sol",
+        "strength": "2%",
+        "notes": [],
+        "page": 168
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0244",
+    "id": "FN0254",
     "name": "ketoprofen",
     "page_first": 12,
     "pages": [
@@ -6722,7 +6961,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0245",
+    "id": "FN0255",
     "name": "ketorolak",
     "page_first": 13,
     "pages": [
@@ -6741,7 +6980,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0246",
+    "id": "FN0256",
     "name": "king cobra antivenin",
     "page_first": 209,
     "pages": [
@@ -6760,7 +6999,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0247",
+    "id": "FN0257",
     "name": "klaritromisin",
     "page_first": 31,
     "pages": [
@@ -6804,7 +7043,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0248",
+    "id": "FN0258",
     "name": "klindamisin",
     "page_first": 33,
     "pages": [
@@ -6831,7 +7070,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0249",
+    "id": "FN0259",
     "name": "klobazam",
     "page_first": 179,
     "pages": [
@@ -6850,7 +7089,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0250",
+    "id": "FN0260",
     "name": "klobetasol propionat",
     "page_first": 169,
     "pages": [
@@ -6877,7 +7116,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0251",
+    "id": "FN0261",
     "name": "klofazimin",
     "page_first": 36,
     "pages": [
@@ -6904,7 +7143,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0252",
+    "id": "FN0262",
     "name": "kloksasilin",
     "page_first": 23,
     "pages": [
@@ -6931,7 +7170,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0253",
+    "id": "FN0263",
     "name": "klonazepam",
     "page_first": 20,
     "pages": [
@@ -6950,7 +7189,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0254",
+    "id": "FN0264",
     "name": "klonidin",
     "page_first": 153,
     "pages": [
@@ -6979,7 +7218,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0255",
+    "id": "FN0265",
     "name": "klopidogrel",
     "page_first": 157,
     "pages": [
@@ -7006,7 +7245,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0256",
+    "id": "FN0266",
     "name": "kloral hidrat",
     "page_first": 17,
     "pages": [
@@ -7025,7 +7264,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0257",
+    "id": "FN0267",
     "name": "klorambusil",
     "page_first": 73,
     "pages": [
@@ -7044,7 +7283,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0258",
+    "id": "FN0268",
     "name": "kloramfenikol",
     "page_first": 29,
     "pages": [
@@ -7121,7 +7360,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0259",
+    "id": "FN0269",
     "name": "klorfeniramin",
     "page_first": 18,
     "pages": [
@@ -7140,7 +7379,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0260",
+    "id": "FN0270",
     "name": "klorfenol kamfer mentol (CHKM)",
     "page_first": 131,
     "pages": [
@@ -7154,6 +7393,26 @@
         "strength": null,
         "notes": [],
         "page": 131
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0271",
+    "name": "klorheksidin",
+    "page_first": 130,
+    "pages": [
+      130,
+      131
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "lar 1 - 2%",
+        "form": "lar",
+        "strength": "1 - 2%",
+        "notes": [],
+        "page": 130
       },
       {
         "item_no": "1",
@@ -7167,26 +7426,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0261",
-    "name": "klorheksidin",
-    "page_first": 130,
-    "pages": [
-      130
-    ],
-    "preparations": [
-      {
-        "item_no": "1",
-        "text": "lar 1 - 2%",
-        "form": "lar",
-        "strength": "1 - 2%",
-        "notes": [],
-        "page": 130
-      }
-    ],
-    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
-  },
-  {
-    "id": "FN0262",
+    "id": "FN0272",
     "name": "klorokuin",
     "page_first": 104,
     "pages": [
@@ -7205,7 +7445,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0263",
+    "id": "FN0273",
     "name": "klorpromazin",
     "page_first": 182,
     "pages": [
@@ -7271,7 +7511,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0264",
+    "id": "FN0274",
     "name": "klotrimazol",
     "page_first": 168,
     "pages": [
@@ -7290,7 +7530,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0265",
+    "id": "FN0275",
     "name": "klozapin",
     "page_first": 182,
     "pages": [
@@ -7317,7 +7557,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0266",
+    "id": "FN0276",
     "name": "kodein",
     "page_first": 9,
     "pages": [
@@ -7369,7 +7609,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0267",
+    "id": "FN0277",
     "name": "kolekalsiferol (vitamin D3)",
     "page_first": 214,
     "pages": [
@@ -7396,7 +7636,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0268",
+    "id": "FN0278",
     "name": "kolestiramin",
     "page_first": 165,
     "pages": [
@@ -7415,7 +7655,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0269",
+    "id": "FN0279",
     "name": "kolkisin",
     "page_first": 15,
     "pages": [
@@ -7434,7 +7674,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0270",
+    "id": "FN0280",
     "name": "kombinasi 50% insulin protamine",
     "page_first": 142,
     "pages": [
@@ -7455,7 +7695,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0271",
+    "id": "FN0281",
     "name": "kombinasi 70% insulin protamine",
     "page_first": 140,
     "pages": [
@@ -7476,7 +7716,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0272",
+    "id": "FN0282",
     "name": "kombinasi 75% insulin protamine",
     "page_first": 141,
     "pages": [
@@ -7497,8 +7737,8 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0273",
-    "name": "kombinasi KDT/FDC (anak)",
+    "id": "FN0283",
+    "name": "kombinasi KDT/FDC (anak) mengandung",
     "page_first": 59,
     "pages": [
       59
@@ -7508,7 +7748,7 @@
         "item_no": "1",
         "text": "tab dispersible",
         "form": "tab dispersible",
-        "strength": null,
+        "strength": "zidovudin 60 mg + lamivudin 30 mg + nevirapin 50 mg",
         "notes": [],
         "page": 60
       }
@@ -7516,18 +7756,19 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0274",
-    "name": "kombinasi KDT/FDC (LPV/r)",
+    "id": "FN0284",
+    "name": "kombinasi KDT/FDC (LPV/r) mengandung",
     "page_first": 60,
     "pages": [
-      60
+      60,
+      61
     ],
     "preparations": [
       {
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "lopinavir 100 mg + ritonavir 25 mg",
         "notes": [],
         "page": 60
       },
@@ -7535,7 +7776,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "lopinavir 200 mg + ritonavir 50 mg",
         "notes": [],
         "page": 62
       }
@@ -7543,7 +7784,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0275",
+    "id": "FN0285",
     "name": "kombinasi KDT/FDC mengandung",
     "page_first": 24,
     "pages": [
@@ -7588,7 +7829,7 @@
         "item_no": "1",
         "text": "sir kering",
         "form": "sir kering",
-        "strength": null,
+        "strength": "amoksisilin 125 mg + asam klavulanat 31,25 mg",
         "notes": [],
         "page": 24
       },
@@ -7596,7 +7837,7 @@
         "item_no": "1",
         "text": "sir kering",
         "form": "sir kering",
-        "strength": null,
+        "strength": "amoksisilin 125 mg + asam klavulanat 31,25 mg + amoksisilin 250 mg + asam klavulanat 62,50 mg",
         "notes": [],
         "page": 25
       },
@@ -7634,19 +7875,9 @@
       },
       {
         "item_no": "1",
-        "text": "inj 3 juta IU (i.m.)",
-        "form": "inj",
-        "strength": "3 juta IU (i.m.)",
-        "notes": [
-          "i.m."
-        ],
-        "page": 26
-      },
-      {
-        "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "isoniazid 300 mg + rifapentin 300 mg",
         "notes": [],
         "page": 44
       },
@@ -7654,7 +7885,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "artemether 20 mg + lumefantrin 120 mg",
         "notes": [],
         "page": 52
       },
@@ -7662,7 +7893,7 @@
         "item_no": "1",
         "text": "tab dispersible",
         "form": "tab dispersible",
-        "strength": null,
+        "strength": "dihidroartemisinin 20 mg + piperakuin 160 mg",
         "notes": [],
         "page": 52
       },
@@ -7670,7 +7901,7 @@
         "item_no": "1",
         "text": "tab dispersible",
         "form": "tab dispersible",
-        "strength": null,
+        "strength": "abakavir 120 mg + lamivudin 60 mg",
         "notes": [],
         "page": 54
       },
@@ -7678,7 +7909,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "emtrisitabin 200 mg",
         "notes": [],
         "page": 55
       },
@@ -7686,7 +7917,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "lamivudin 300 mg",
         "notes": [],
         "page": 56
       },
@@ -7694,7 +7925,7 @@
         "item_no": "1",
         "text": "tab dispersible",
         "form": "tab dispersible",
-        "strength": null,
+        "strength": "zidovudin 60 mg + lamivudin 30 mg",
         "notes": [],
         "page": 56
       },
@@ -7702,7 +7933,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "zidovudin 300 mg + lamivudin 150 mg",
         "notes": [],
         "page": 57
       },
@@ -7710,7 +7941,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "lamivudin 300 mg + efavirenz 600 mg",
         "notes": [],
         "page": 59
       },
@@ -7718,7 +7949,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "lamivudin 300 mg + dolutegravir 50 mg",
         "notes": [],
         "page": 63
       },
@@ -7726,7 +7957,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "sofosbuvir 400 mg + daklatasvir 60 mg",
         "notes": [],
         "page": 65
       },
@@ -7734,7 +7965,7 @@
         "item_no": "1",
         "text": "tab sal selaput",
         "form": "tab sal selaput",
-        "strength": null,
+        "strength": "sofosbuvir 400 mg + velpatasvir 100 mg",
         "notes": [],
         "page": 66
       },
@@ -7742,7 +7973,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "ergotamin 1 mg + kafein 100 mg",
         "notes": [],
         "page": 71
       },
@@ -7750,7 +7981,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "benserazid 25 mg + levodopa 100 mg",
         "notes": [],
         "page": 110
       },
@@ -7758,7 +7989,7 @@
         "item_no": "2",
         "text": "tab dispersible",
         "form": "tab dispersible",
-        "strength": null,
+        "strength": "benserazid 25 mg + levodopa 100 mg",
         "notes": [],
         "page": 111
       },
@@ -7766,7 +7997,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "levodopa 100 mg + karbidopa 25 mg + entekapon 200 mg",
         "notes": [],
         "page": 111
       },
@@ -7774,7 +8005,7 @@
         "item_no": "1",
         "text": "tab sal",
         "form": "tab sal",
-        "strength": null,
+        "strength": "asam folat 0,4 mg",
         "notes": [],
         "page": 112
       },
@@ -7790,7 +8021,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "desogestrel 150 mcg + etinilestradiol 30 mcg",
         "notes": [],
         "page": 145
       },
@@ -7798,7 +8029,7 @@
         "item_no": "1",
         "text": "inj",
         "form": "inj",
-        "strength": null,
+        "strength": "estradiol sipionat 5 mg",
         "notes": [],
         "page": 146
       },
@@ -7806,7 +8037,7 @@
         "item_no": "1",
         "text": "tab",
         "form": "tab",
-        "strength": null,
+        "strength": "kaolin 550 mg + pektin 20 mg",
         "notes": [],
         "page": 191
       },
@@ -7819,10 +8050,18 @@
         "page": 198
       },
       {
+        "item_no": "8",
+        "text": "vial/hari,",
+        "form": "vial/hari,",
+        "strength": "salbutamol 2,5 mg",
+        "notes": [],
+        "page": 198
+      },
+      {
         "item_no": "1",
         "text": "ih",
         "form": "ih",
-        "strength": null,
+        "strength": "salmeterol 25 mcg",
         "notes": [],
         "page": 198
       },
@@ -7830,7 +8069,7 @@
         "item_no": "1",
         "text": "serb ih",
         "form": "serb ih",
-        "strength": null,
+        "strength": "salmeterol 50 mcg",
         "notes": [],
         "page": 198
       },
@@ -7838,7 +8077,7 @@
         "item_no": "1",
         "text": "serb ih",
         "form": "serb ih",
-        "strength": null,
+        "strength": "salmeterol 50 mcg",
         "notes": [],
         "page": 199
       },
@@ -7846,7 +8085,7 @@
         "item_no": "1",
         "text": "serb ih",
         "form": "serb ih",
-        "strength": null,
+        "strength": "salmeterol 50 mcg",
         "notes": [],
         "page": 199
       },
@@ -7854,7 +8093,31 @@
         "item_no": "1",
         "text": "serb ih+alat breezhaler",
         "form": "serb ih+alat breezhaler",
-        "strength": null,
+        "strength": "indakaterol 110 mcg + glikopironium 50 mcg",
+        "notes": [],
+        "page": 203
+      },
+      {
+        "item_no": "8",
+        "text": "vial/hari,",
+        "form": "vial/hari,",
+        "strength": "salbutamol 2,5 mg",
+        "notes": [],
+        "page": 203
+      },
+      {
+        "item_no": "6",
+        "text": "vial/hari paling",
+        "form": "vial/hari paling",
+        "strength": "salbutamol 2,5 mg",
+        "notes": [],
+        "page": 203
+      },
+      {
+        "item_no": "10",
+        "text": "vial/hari",
+        "form": "vial/hari",
+        "strength": "salbutamol 2,5 mg",
         "notes": [],
         "page": 203
       },
@@ -7862,7 +8125,7 @@
         "item_no": "1",
         "text": "serb ih",
         "form": "serb ih",
-        "strength": null,
+        "strength": "salmeterol 50 mcg",
         "notes": [],
         "page": 203
       },
@@ -7870,7 +8133,7 @@
         "item_no": "1",
         "text": "serb ih",
         "form": "serb ih",
-        "strength": null,
+        "strength": "salmeterol 50 mcg",
         "notes": [],
         "page": 204
       },
@@ -7878,7 +8141,7 @@
         "item_no": "1",
         "text": "tab sal",
         "form": "tab sal",
-        "strength": null,
+        "strength": "asam folat 0,4 mg",
         "notes": [],
         "page": 215
       }
@@ -7886,8 +8149,8 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0276",
-    "name": "kombinasi KDT/FDC, setiap dosis",
+    "id": "FN0286",
+    "name": "kombinasi KDT/FDC, setiap dosis mengandung",
     "page_first": 196,
     "pages": [
       196,
@@ -7898,7 +8161,7 @@
         "item_no": "1",
         "text": "ih",
         "form": "ih",
-        "strength": null,
+        "strength": "budesonid 80 mcg + formoterol 4,5 mcg",
         "notes": [],
         "page": 196
       },
@@ -7906,7 +8169,7 @@
         "item_no": "1",
         "text": "ih",
         "form": "ih",
-        "strength": null,
+        "strength": "budesonid 160 mcg + formoterol 4,5 mcg",
         "notes": [],
         "page": 197
       }
@@ -7914,26 +8177,36 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0277",
-    "name": "komposit resin",
-    "page_first": 132,
+    "id": "FN0287",
+    "name": "kombinasi KDT/FDC, setiap mL mengandung",
+    "page_first": 175,
     "pages": [
-      132
+      175,
+      176,
+      177
     ],
     "preparations": [
       {
         "item_no": "1",
-        "text": "inj",
-        "form": "inj",
-        "strength": null,
+        "text": "tts mata",
+        "form": "tts mata",
+        "strength": "brinzolamid 1% + timolol 0,5%",
         "notes": [],
-        "page": 132
+        "page": 176
+      },
+      {
+        "item_no": "1",
+        "text": "tts mata",
+        "form": "tts mata",
+        "strength": "natrium klorida 4,40 mg + kalium klorida 0,80 mg",
+        "notes": [],
+        "page": 177
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0278",
+    "id": "FN0288",
     "name": "kotrimoksazol",
     "page_first": 30,
     "pages": [
@@ -7952,7 +8225,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0279",
+    "id": "FN0289",
     "name": "kotrimoksazol (dewasa)",
     "page_first": 30,
     "pages": [
@@ -7971,7 +8244,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0280",
+    "id": "FN0290",
     "name": "kotrimoksazol forte (dewasa)",
     "page_first": 30,
     "pages": [
@@ -7985,12 +8258,28 @@
         "strength": "800/160 mg",
         "notes": [],
         "page": 30
+      },
+      {
+        "item_no": "1",
+        "text": "tab/hari sampai",
+        "form": "tab/hari sampai",
+        "strength": null,
+        "notes": [],
+        "page": 30
+      },
+      {
+        "item_no": "2",
+        "text": "tab/hari selama",
+        "form": "tab/hari selama",
+        "strength": null,
+        "notes": [],
+        "page": 30
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0281",
+    "id": "FN0291",
     "name": "kuinin",
     "page_first": 52,
     "pages": [
@@ -8019,7 +8308,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0282",
+    "id": "FN0292",
     "name": "laktulosa",
     "page_first": 192,
     "pages": [
@@ -8038,7 +8327,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0283",
+    "id": "FN0293",
     "name": "lamivudin",
     "page_first": 57,
     "pages": [
@@ -8066,7 +8355,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0284",
+    "id": "FN0294",
     "name": "lamotrigin",
     "page_first": 20,
     "pages": [
@@ -8101,7 +8390,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0285",
+    "id": "FN0295",
     "name": "lansoprazol",
     "page_first": 188,
     "pages": [
@@ -8128,7 +8417,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0286",
+    "id": "FN0296",
     "name": "lapatinib",
     "page_first": 86,
     "pages": [
@@ -8147,26 +8436,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0287",
-    "name": "larutan kardioplegia",
-    "page_first": 217,
-    "pages": [
-      217
-    ],
-    "preparations": [
-      {
-        "item_no": "1",
-        "text": "inj",
-        "form": "inj",
-        "strength": null,
-        "notes": [],
-        "page": 217
-      }
-    ],
-    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
-  },
-  {
-    "id": "FN0288",
+    "id": "FN0297",
     "name": "latanoprost",
     "page_first": 176,
     "pages": [
@@ -8185,7 +8455,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0289",
+    "id": "FN0298",
     "name": "leflunomid",
     "page_first": 104,
     "pages": [
@@ -8204,7 +8474,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0290",
+    "id": "FN0299",
     "name": "lenalidomid",
     "page_first": 94,
     "pages": [
@@ -8231,7 +8501,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0291",
+    "id": "FN0300",
     "name": "lenograstim",
     "page_first": 122,
     "pages": [
@@ -8250,7 +8520,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0292",
+    "id": "FN0301",
     "name": "lenvatinib",
     "page_first": 87,
     "pages": [
@@ -8269,7 +8539,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0293",
+    "id": "FN0302",
     "name": "letrozol",
     "page_first": 101,
     "pages": [
@@ -8288,7 +8558,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0294",
+    "id": "FN0303",
     "name": "leuprorelin asetat",
     "page_first": 97,
     "pages": [
@@ -8348,7 +8618,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0295",
+    "id": "FN0304",
     "name": "levetirasetam",
     "page_first": 20,
     "pages": [
@@ -8383,7 +8653,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0296",
+    "id": "FN0305",
     "name": "levofloksasin",
     "page_first": 32,
     "pages": [
@@ -8411,7 +8681,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0297",
+    "id": "FN0306",
     "name": "levotiroksin",
     "page_first": 147,
     "pages": [
@@ -8435,6 +8705,14 @@
         "page": 147
       },
       {
+        "item_no": "90",
+        "text": "tab/bulan",
+        "form": "tab/bulan",
+        "strength": null,
+        "notes": [],
+        "page": 148
+      },
+      {
         "item_no": "3",
         "text": "tab 100 mcg",
         "form": "tab",
@@ -8454,7 +8732,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0298",
+    "id": "FN0307",
     "name": "lidokain",
     "page_first": 16,
     "pages": [
@@ -8510,7 +8788,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0299",
+    "id": "FN0308",
     "name": "linestrenol",
     "page_first": 144,
     "pages": [
@@ -8538,7 +8816,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0300",
+    "id": "FN0309",
     "name": "liquor carbonis detergens",
     "page_first": 170,
     "pages": [
@@ -8557,7 +8835,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0301",
+    "id": "FN0310",
     "name": "lisinopril",
     "page_first": 153,
     "pages": [
@@ -8584,7 +8862,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0302",
+    "id": "FN0311",
     "name": "litium karbonat",
     "page_first": 185,
     "pages": [
@@ -8611,7 +8889,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0303",
+    "id": "FN0312",
     "name": "loperamid",
     "page_first": 191,
     "pages": [
@@ -8630,7 +8908,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0304",
+    "id": "FN0313",
     "name": "loratadin",
     "page_first": 18,
     "pages": [
@@ -8644,12 +8922,20 @@
         "strength": "10 mg",
         "notes": [],
         "page": 18
+      },
+      {
+        "item_no": "1",
+        "text": "tab/hari, maks",
+        "form": "tab/hari, maks",
+        "strength": null,
+        "notes": [],
+        "page": 18
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0305",
+    "id": "FN0314",
     "name": "lorazepam",
     "page_first": 179,
     "pages": [
@@ -8684,7 +8970,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0306",
+    "id": "FN0315",
     "name": "low molecule ferri sucrose",
     "page_first": 112,
     "pages": [
@@ -8705,7 +8991,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0307",
+    "id": "FN0316",
     "name": "magnesium sulfat",
     "page_first": 19,
     "pages": [
@@ -8745,7 +9031,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0308",
+    "id": "FN0317",
     "name": "maprotilin",
     "page_first": 180,
     "pages": [
@@ -8772,7 +9058,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0309",
+    "id": "FN0318",
     "name": "MDP (methylene diphosphonate)",
     "page_first": 128,
     "pages": [
@@ -8791,7 +9077,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0310",
+    "id": "FN0319",
     "name": "mebendazol",
     "page_first": 22,
     "pages": [
@@ -8826,7 +9112,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0311",
+    "id": "FN0320",
     "name": "medroksi progesteron asetat",
     "page_first": 109,
     "pages": [
@@ -8887,7 +9173,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0312",
+    "id": "FN0321",
     "name": "melfalan",
     "page_first": 73,
     "pages": [
@@ -8906,7 +9192,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0313",
+    "id": "FN0322",
     "name": "merkaptopurin",
     "page_first": 76,
     "pages": [
@@ -8925,7 +9211,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0314",
+    "id": "FN0323",
     "name": "meropenem",
     "page_first": 34,
     "pages": [
@@ -8952,7 +9238,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0315",
+    "id": "FN0324",
     "name": "mesalazin",
     "page_first": 193,
     "pages": [
@@ -8987,7 +9273,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0316",
+    "id": "FN0325",
     "name": "mesna",
     "page_first": 109,
     "pages": [
@@ -9006,7 +9292,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0317",
+    "id": "FN0326",
     "name": "metadon",
     "page_first": 186,
     "pages": [
@@ -9025,7 +9311,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0318",
+    "id": "FN0327",
     "name": "metamizol",
     "page_first": 13,
     "pages": [
@@ -9044,7 +9330,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0319",
+    "id": "FN0328",
     "name": "metenamin mandelat (heksamin mandelat)",
     "page_first": 49,
     "pages": [
@@ -9063,7 +9349,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0320",
+    "id": "FN0329",
     "name": "metformin",
     "page_first": 134,
     "pages": [
@@ -9090,7 +9376,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0321",
+    "id": "FN0330",
     "name": "metildopa",
     "page_first": 154,
     "pages": [
@@ -9109,7 +9395,34 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0322",
+    "id": "FN0331",
+    "name": "metilergometrin",
+    "page_first": 179,
+    "pages": [
+      179
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "tab 0,125 mg",
+        "form": "tab",
+        "strength": "0,125 mg",
+        "notes": [],
+        "page": 179
+      },
+      {
+        "item_no": "2",
+        "text": "inj 0,2 mg/mL",
+        "form": "inj",
+        "strength": "0,2 mg/mL",
+        "notes": [],
+        "page": 179
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0332",
     "name": "metilfenidat",
     "page_first": 185,
     "pages": [
@@ -9144,7 +9457,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0323",
+    "id": "FN0333",
     "name": "metilprednisolon",
     "page_first": 110,
     "pages": [
@@ -9245,7 +9558,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0324",
+    "id": "FN0334",
     "name": "metoklopramid",
     "page_first": 190,
     "pages": [
@@ -9280,7 +9593,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0325",
+    "id": "FN0335",
     "name": "metoksi polietilen glikol-epoetin beta",
     "page_first": 122,
     "pages": [
@@ -9307,7 +9620,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0326",
+    "id": "FN0336",
     "name": "metoprolol",
     "page_first": 154,
     "pages": [
@@ -9326,7 +9639,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0327",
+    "id": "FN0337",
     "name": "metotreksat",
     "page_first": 76,
     "pages": [
@@ -9398,7 +9711,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0328",
+    "id": "FN0338",
     "name": "metronidazol",
     "page_first": 35,
     "pages": [
@@ -9474,7 +9787,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0329",
+    "id": "FN0339",
     "name": "mg (BB < 60 kg),",
     "page_first": 88,
     "pages": [
@@ -9493,7 +9806,26 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0330",
+    "id": "FN0340",
+    "name": "MIBI (methoxyisobutyl isonitrile)",
+    "page_first": 129,
+    "pages": [
+      129
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "serb inj",
+        "form": "serb inj",
+        "strength": null,
+        "notes": [],
+        "page": 129
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0341",
     "name": "midazolam",
     "page_first": 17,
     "pages": [
@@ -9511,6 +9843,14 @@
         "page": 17
       },
       {
+        "item_no": "8",
+        "text": "vial/kasus",
+        "form": "vial/kasus",
+        "strength": null,
+        "notes": [],
+        "page": 17
+      },
+      {
         "item_no": "2",
         "text": "inj 5 mg/mL (i.v.)",
         "form": "inj",
@@ -9524,7 +9864,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0331",
+    "id": "FN0342",
     "name": "mikafungin",
     "page_first": 51,
     "pages": [
@@ -9543,7 +9883,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0332",
+    "id": "FN0343",
     "name": "mikofenolat mofetil",
     "page_first": 105,
     "pages": [
@@ -9562,7 +9902,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0333",
+    "id": "FN0344",
     "name": "mikofenolat sodium",
     "page_first": 105,
     "pages": [
@@ -9589,7 +9929,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0334",
+    "id": "FN0345",
     "name": "mikonazol",
     "page_first": 168,
     "pages": [
@@ -9616,7 +9956,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0335",
+    "id": "FN0346",
     "name": "milrinon",
     "page_first": 162,
     "pages": [
@@ -9635,7 +9975,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0336",
+    "id": "FN0347",
     "name": "minosiklin",
     "page_first": 40,
     "pages": [
@@ -9654,7 +9994,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0337",
+    "id": "FN0348",
     "name": "mitomisin",
     "page_first": 82,
     "pages": [
@@ -9681,7 +10021,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0338",
+    "id": "FN0349",
     "name": "moksifloksasin",
     "page_first": 32,
     "pages": [
@@ -9709,7 +10049,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0339",
+    "id": "FN0350",
     "name": "molnupiravir",
     "page_first": 69,
     "pages": [
@@ -9728,7 +10068,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0340",
+    "id": "FN0351",
     "name": "mometason furoat",
     "page_first": 169,
     "pages": [
@@ -9756,7 +10096,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0341",
+    "id": "FN0352",
     "name": "morfin",
     "page_first": 10,
     "pages": [
@@ -9817,7 +10157,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0342",
+    "id": "FN0353",
     "name": "mupirosin",
     "page_first": 167,
     "pages": [
@@ -9844,7 +10184,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0343",
+    "id": "FN0354",
     "name": "n-asetil sistein",
     "page_first": 18,
     "pages": [
@@ -9880,7 +10220,26 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0344",
+    "id": "FN0355",
+    "name": "nadroparin",
+    "page_first": 115,
+    "pages": [
+      115
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "inj 9.500 AXa/mL",
+        "form": "inj",
+        "strength": "9.500 AXa/mL",
+        "notes": [],
+        "page": 115
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0356",
     "name": "nalokson",
     "page_first": 19,
     "pages": [
@@ -9899,7 +10258,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0345",
+    "id": "FN0357",
     "name": "natamisin",
     "page_first": 173,
     "pages": [
@@ -9926,11 +10285,12 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0346",
+    "id": "FN0358",
     "name": "natrium bikarbonat",
     "page_first": 19,
     "pages": [
-      19
+      19,
+      171
     ],
     "preparations": [
       {
@@ -9950,12 +10310,20 @@
           "i.v."
         ],
         "page": 19
+      },
+      {
+        "item_no": "1",
+        "text": "tab 500 mg",
+        "form": "tab",
+        "strength": "500 mg",
+        "notes": [],
+        "page": 171
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0347",
+    "id": "FN0359",
     "name": "natrium diklofenak",
     "page_first": 13,
     "pages": [
@@ -9999,7 +10367,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0348",
+    "id": "FN0360",
     "name": "natrium fluoresein",
     "page_first": 129,
     "pages": [
@@ -10026,7 +10394,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0349",
+    "id": "FN0361",
     "name": "natrium fosfat",
     "page_first": 192,
     "pages": [
@@ -10045,7 +10413,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0350",
+    "id": "FN0362",
     "name": "natrium hialuronat",
     "page_first": 177,
     "pages": [
@@ -10064,7 +10432,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0351",
+    "id": "FN0363",
     "name": "natrium hipoklorit",
     "page_first": 131,
     "pages": [
@@ -10083,7 +10451,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0352",
+    "id": "FN0364",
     "name": "natrium klorida",
     "page_first": 177,
     "pages": [
@@ -10102,7 +10470,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0353",
+    "id": "FN0365",
     "name": "natrium tiosulfat",
     "page_first": 19,
     "pages": [
@@ -10123,7 +10491,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0354",
+    "id": "FN0366",
     "name": "neostigmin",
     "page_first": 19,
     "pages": [
@@ -10160,7 +10528,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0355",
+    "id": "FN0367",
     "name": "neuro polyvalent snake antivenin",
     "page_first": 209,
     "pages": [
@@ -10179,7 +10547,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0356",
+    "id": "FN0368",
     "name": "nevirapin",
     "page_first": 58,
     "pages": [
@@ -10206,7 +10574,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0357",
+    "id": "FN0369",
     "name": "nifedipin",
     "page_first": 154,
     "pages": [
@@ -10241,7 +10609,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0358",
+    "id": "FN0370",
     "name": "nikardipin",
     "page_first": 154,
     "pages": [
@@ -10260,7 +10628,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0359",
+    "id": "FN0371",
     "name": "nilotinib",
     "page_first": 89,
     "pages": [
@@ -10287,7 +10655,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0360",
+    "id": "FN0372",
     "name": "nimodipin",
     "page_first": 154,
     "pages": [
@@ -10306,7 +10674,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0361",
+    "id": "FN0373",
     "name": "nistatin",
     "page_first": 51,
     "pages": [
@@ -10351,7 +10719,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0362",
+    "id": "FN0374",
     "name": "nitrogen oksida",
     "page_first": 16,
     "pages": [
@@ -10370,7 +10738,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0363",
+    "id": "FN0375",
     "name": "nomegestrol asetat",
     "page_first": 145,
     "pages": [
@@ -10389,7 +10757,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0364",
+    "id": "FN0376",
     "name": "norepinefrin",
     "page_first": 163,
     "pages": [
@@ -10408,7 +10776,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0365",
+    "id": "FN0377",
     "name": "noretisteron",
     "page_first": 145,
     "pages": [
@@ -10427,7 +10795,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0366",
+    "id": "FN0378",
     "name": "OAT KDT Kategori 1",
     "page_first": 44,
     "pages": [
@@ -10437,11 +10805,27 @@
     "preparations": [
       {
         "item_no": "1",
+        "text": "tab/15 kgBB,",
+        "form": "tab",
+        "strength": "15 kgBB",
+        "notes": [],
+        "page": 44
+      },
+      {
+        "item_no": "1",
         "text": "tab",
         "form": "tab",
         "strength": null,
         "notes": [],
         "page": 44
+      },
+      {
+        "item_no": "1",
+        "text": "tab/15 kgBB,",
+        "form": "tab",
+        "strength": "15 kgBB",
+        "notes": [],
+        "page": 45
       },
       {
         "item_no": "1",
@@ -10455,7 +10839,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0367",
+    "id": "FN0379",
     "name": "ofloksasin",
     "page_first": 32,
     "pages": [
@@ -10500,7 +10884,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0368",
+    "id": "FN0380",
     "name": "oksaliplatin",
     "page_first": 95,
     "pages": [
@@ -10527,7 +10911,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0369",
+    "id": "FN0381",
     "name": "oksigen",
     "page_first": 16,
     "pages": [
@@ -10546,7 +10930,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0370",
+    "id": "FN0382",
     "name": "oksikodon",
     "page_first": 10,
     "pages": [
@@ -10581,7 +10965,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0371",
+    "id": "FN0383",
     "name": "oksimetazolin",
     "page_first": 177,
     "pages": [
@@ -10609,7 +10993,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0372",
+    "id": "FN0384",
     "name": "oksitetrasiklin",
     "page_first": 29,
     "pages": [
@@ -10639,7 +11023,26 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0373",
+    "id": "FN0385",
+    "name": "oksitosin",
+    "page_first": 179,
+    "pages": [
+      179
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "inj 10 IU/mL",
+        "form": "inj",
+        "strength": "10 IU/mL",
+        "notes": [],
+        "page": 179
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0386",
     "name": "okskarbazepin",
     "page_first": 21,
     "pages": [
@@ -10674,7 +11077,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0374",
+    "id": "FN0387",
     "name": "oktreotid asetat",
     "page_first": 129,
     "pages": [
@@ -10694,7 +11097,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0375",
+    "id": "FN0388",
     "name": "oktreotid LAR",
     "page_first": 110,
     "pages": [
@@ -10738,7 +11141,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0376",
+    "id": "FN0389",
     "name": "olanzapin",
     "page_first": 183,
     "pages": [
@@ -10768,36 +11171,12 @@
         "strength": "10 mg",
         "notes": [],
         "page": 183
-      },
-      {
-        "item_no": "1",
-        "text": "inj 75 mg/0,75 mL",
-        "form": "inj",
-        "strength": "75 mg/0,75 mL",
-        "notes": [],
-        "page": 184
-      },
-      {
-        "item_no": "2",
-        "text": "inj 100 mg/mL",
-        "form": "inj",
-        "strength": "100 mg/mL",
-        "notes": [],
-        "page": 184
-      },
-      {
-        "item_no": "3",
-        "text": "inj 150 mg/1,5 mL",
-        "form": "inj",
-        "strength": "150 mg/1,5 mL",
-        "notes": [],
-        "page": 184
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0377",
+    "id": "FN0390",
     "name": "olopatadin",
     "page_first": 174,
     "pages": [
@@ -10816,7 +11195,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0378",
+    "id": "FN0391",
     "name": "omeprazol",
     "page_first": 189,
     "pages": [
@@ -10843,7 +11222,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0379",
+    "id": "FN0392",
     "name": "ondansetron",
     "page_first": 190,
     "pages": [
@@ -10886,7 +11265,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0380",
+    "id": "FN0393",
     "name": "paklitaksel",
     "page_first": 79,
     "pages": [
@@ -10905,7 +11284,42 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0381",
+    "id": "FN0394",
+    "name": "paliperidon palmitat",
+    "page_first": 184,
+    "pages": [
+      184
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "inj 75 mg/0,75 mL",
+        "form": "inj",
+        "strength": "75 mg/0,75 mL",
+        "notes": [],
+        "page": 184
+      },
+      {
+        "item_no": "2",
+        "text": "inj 100 mg/mL",
+        "form": "inj",
+        "strength": "100 mg/mL",
+        "notes": [],
+        "page": 184
+      },
+      {
+        "item_no": "3",
+        "text": "inj 150 mg/1,5 mL",
+        "form": "inj",
+        "strength": "150 mg/1,5 mL",
+        "notes": [],
+        "page": 184
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0395",
     "name": "parasetamol",
     "page_first": 13,
     "pages": [
@@ -10940,7 +11354,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0382",
+    "id": "FN0396",
     "name": "pazopanib",
     "page_first": 89,
     "pages": [
@@ -10967,7 +11381,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0383",
+    "id": "FN0397",
     "name": "pegaspargase",
     "page_first": 96,
     "pages": [
@@ -10986,7 +11400,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0384",
+    "id": "FN0398",
     "name": "pegylated interferon alfa-2a",
     "page_first": 67,
     "pages": [
@@ -11013,7 +11427,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0385",
+    "id": "FN0399",
     "name": "pemetreksed",
     "page_first": 77,
     "pages": [
@@ -11040,42 +11454,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0386",
-    "name": "pengganti plasma golongan gelatin",
-    "page_first": 126,
-    "pages": [
-      126
-    ],
-    "preparations": [
-      {
-        "item_no": "1",
-        "text": "serb 92 g/100 g",
-        "form": "serb",
-        "strength": "92 g/100 g",
-        "notes": [],
-        "page": 127
-      },
-      {
-        "item_no": "2",
-        "text": "susp 95%",
-        "form": "susp",
-        "strength": "95%",
-        "notes": [],
-        "page": 127
-      },
-      {
-        "item_no": "1",
-        "text": "inj 320 mg Iodium/mL",
-        "form": "inj",
-        "strength": "320 mg Iodium/mL",
-        "notes": [],
-        "page": 127
-      }
-    ],
-    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
-  },
-  {
-    "id": "FN0387",
+    "id": "FN0400",
     "name": "perak nitrat",
     "page_first": 169,
     "pages": [
@@ -11094,7 +11473,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0388",
+    "id": "FN0401",
     "name": "perak sulfadiazin",
     "page_first": 167,
     "pages": [
@@ -11113,7 +11492,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0389",
+    "id": "FN0402",
     "name": "perindopril arginin",
     "page_first": 154,
     "pages": [
@@ -11132,7 +11511,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0390",
+    "id": "FN0403",
     "name": "permetrin",
     "page_first": 169,
     "pages": [
@@ -11148,6 +11527,14 @@
         "page": 169
       },
       {
+        "item_no": "2",
+        "text": "salep 2−4",
+        "form": "salep",
+        "strength": "2−4",
+        "notes": [],
+        "page": 169
+      },
+      {
         "item_no": "1",
         "text": "salep",
         "form": "salep",
@@ -11159,7 +11546,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0391",
+    "id": "FN0404",
     "name": "petidin",
     "page_first": 11,
     "pages": [
@@ -11180,7 +11567,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0392",
+    "id": "FN0405",
     "name": "pilokarpin",
     "page_first": 176,
     "pages": [
@@ -11199,7 +11586,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0393",
+    "id": "FN0406",
     "name": "pioglitazon",
     "page_first": 135,
     "pages": [
@@ -11226,7 +11613,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0394",
+    "id": "FN0407",
     "name": "pirantel pamoat",
     "page_first": 22,
     "pages": [
@@ -11261,7 +11648,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0395",
+    "id": "FN0408",
     "name": "pirazinamid",
     "page_first": 48,
     "pages": [
@@ -11280,7 +11667,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0396",
+    "id": "FN0409",
     "name": "piridoksin (vitamin B6)",
     "page_first": 215,
     "pages": [
@@ -11315,7 +11702,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0397",
+    "id": "FN0410",
     "name": "piridostigmin",
     "page_first": 187,
     "pages": [
@@ -11334,7 +11721,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0398",
+    "id": "FN0411",
     "name": "pirimetamin",
     "page_first": 36,
     "pages": [
@@ -11353,7 +11740,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0399",
+    "id": "FN0412",
     "name": "polietilen glikol",
     "page_first": 193,
     "pages": [
@@ -11372,7 +11759,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0400",
+    "id": "FN0413",
     "name": "polikresulen",
     "page_first": 169,
     "pages": [
@@ -11391,7 +11778,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0401",
+    "id": "FN0414",
     "name": "polyvalent snake antivenin",
     "page_first": 209,
     "pages": [
@@ -11418,7 +11805,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0402",
+    "id": "FN0415",
     "name": "ponatinib",
     "page_first": 89,
     "pages": [
@@ -11437,7 +11824,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0403",
+    "id": "FN0416",
     "name": "povidon iodin",
     "page_first": 130,
     "pages": [
@@ -11482,7 +11869,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0404",
+    "id": "FN0417",
     "name": "pramipeksol",
     "page_first": 111,
     "pages": [
@@ -11517,7 +11904,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0405",
+    "id": "FN0418",
     "name": "pravastatin",
     "page_first": 165,
     "pages": [
@@ -11544,7 +11931,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0406",
+    "id": "FN0419",
     "name": "prazikuantel",
     "page_first": 22,
     "pages": [
@@ -11572,7 +11959,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0407",
+    "id": "FN0420",
     "name": "prednisolon",
     "page_first": 174,
     "pages": [
@@ -11591,7 +11978,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0408",
+    "id": "FN0421",
     "name": "prednison",
     "page_first": 149,
     "pages": [
@@ -11619,7 +12006,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0409",
+    "id": "FN0422",
     "name": "pregabalin",
     "page_first": 15,
     "pages": [
@@ -11646,7 +12033,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0410",
+    "id": "FN0423",
     "name": "primakuin",
     "page_first": 53,
     "pages": [
@@ -11665,7 +12052,28 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0411",
+    "id": "FN0424",
+    "name": "prokain benzilpenisilin",
+    "page_first": 26,
+    "pages": [
+      26
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "inj 3 juta IU (i.m.)",
+        "form": "inj",
+        "strength": "3 juta IU (i.m.)",
+        "notes": [
+          "i.m."
+        ],
+        "page": 26
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0425",
     "name": "prokaterol",
     "page_first": 199,
     "pages": [
@@ -11684,7 +12092,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0412",
+    "id": "FN0426",
     "name": "propiltiourasil",
     "page_first": 148,
     "pages": [
@@ -11703,7 +12111,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0413",
+    "id": "FN0427",
     "name": "propofol",
     "page_first": 16,
     "pages": [
@@ -11722,7 +12130,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0414",
+    "id": "FN0428",
     "name": "propranolol",
     "page_first": 70,
     "pages": [
@@ -11758,7 +12166,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0415",
+    "id": "FN0429",
     "name": "prostaglandin (PGE 1)",
     "page_first": 154,
     "pages": [
@@ -11777,7 +12185,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0416",
+    "id": "FN0430",
     "name": "protamin sulfat",
     "page_first": 19,
     "pages": [
@@ -11798,7 +12206,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0417",
+    "id": "FN0431",
     "name": "quetiapin",
     "page_first": 184,
     "pages": [
@@ -11852,36 +12260,12 @@
         "strength": "400 mg",
         "notes": [],
         "page": 185
-      },
-      {
-        "item_no": "1",
-        "text": "tab 1 mg",
-        "form": "tab",
-        "strength": "1 mg",
-        "notes": [],
-        "page": 185
-      },
-      {
-        "item_no": "2",
-        "text": "tab 2 mg",
-        "form": "tab",
-        "strength": "2 mg",
-        "notes": [],
-        "page": 185
-      },
-      {
-        "item_no": "3",
-        "text": "tab 3 mg",
-        "form": "tab",
-        "strength": "3 mg",
-        "notes": [],
-        "page": 185
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0418",
+    "id": "FN0432",
     "name": "ramipril",
     "page_first": 155,
     "pages": [
@@ -11933,7 +12317,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0419",
+    "id": "FN0433",
     "name": "ranibizumab",
     "page_first": 178,
     "pages": [
@@ -11952,7 +12336,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0420",
+    "id": "FN0434",
     "name": "ranitidin",
     "page_first": 189,
     "pages": [
@@ -11974,28 +12358,12 @@
         "strength": "25 mg/mL",
         "notes": [],
         "page": 189
-      },
-      {
-        "item_no": "1",
-        "text": "tab 500 mg",
-        "form": "tab",
-        "strength": "500 mg",
-        "notes": [],
-        "page": 189
-      },
-      {
-        "item_no": "2",
-        "text": "susp 500 mg/5 mL",
-        "form": "susp",
-        "strength": "500 mg/5 mL",
-        "notes": [],
-        "page": 189
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0421",
+    "id": "FN0435",
     "name": "remdesivir",
     "page_first": 70,
     "pages": [
@@ -12014,7 +12382,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0422",
+    "id": "FN0436",
     "name": "remifentanil",
     "page_first": 11,
     "pages": [
@@ -12049,7 +12417,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0423",
+    "id": "FN0437",
     "name": "retinol (vitamin A)",
     "page_first": 178,
     "pages": [
@@ -12064,30 +12432,6 @@
         "strength": "10 mg",
         "notes": [],
         "page": 178
-      },
-      {
-        "item_no": "1",
-        "text": "tab 0,125 mg",
-        "form": "tab",
-        "strength": "0,125 mg",
-        "notes": [],
-        "page": 179
-      },
-      {
-        "item_no": "2",
-        "text": "inj 0,2 mg/mL",
-        "form": "inj",
-        "strength": "0,2 mg/mL",
-        "notes": [],
-        "page": 179
-      },
-      {
-        "item_no": "1",
-        "text": "inj 10 IU/mL",
-        "form": "inj",
-        "strength": "10 IU/mL",
-        "notes": [],
-        "page": 179
       },
       {
         "item_no": "1",
@@ -12109,7 +12453,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0424",
+    "id": "FN0438",
     "name": "rifampisin",
     "page_first": 41,
     "pages": [
@@ -12144,7 +12488,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0425",
+    "id": "FN0439",
     "name": "rifapentin",
     "page_first": 48,
     "pages": [
@@ -12163,7 +12507,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0426",
+    "id": "FN0440",
     "name": "risedronat",
     "page_first": 216,
     "pages": [
@@ -12182,7 +12526,42 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0427",
+    "id": "FN0441",
+    "name": "risperidon",
+    "page_first": 185,
+    "pages": [
+      185
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "tab 1 mg",
+        "form": "tab",
+        "strength": "1 mg",
+        "notes": [],
+        "page": 185
+      },
+      {
+        "item_no": "2",
+        "text": "tab 2 mg",
+        "form": "tab",
+        "strength": "2 mg",
+        "notes": [],
+        "page": 185
+      },
+      {
+        "item_no": "3",
+        "text": "tab 3 mg",
+        "form": "tab",
+        "strength": "3 mg",
+        "notes": [],
+        "page": 185
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0442",
     "name": "rituksimab",
     "page_first": 91,
     "pages": [
@@ -12201,7 +12580,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0428",
+    "id": "FN0443",
     "name": "rivaroksaban",
     "page_first": 115,
     "pages": [
@@ -12217,10 +12596,26 @@
         "page": 115
       },
       {
+        "item_no": "30",
+        "text": "tab/bulan",
+        "form": "tab/bulan",
+        "strength": null,
+        "notes": [],
+        "page": 115
+      },
+      {
         "item_no": "2",
         "text": "tab sal 15 mg",
         "form": "tab sal",
         "strength": "15 mg",
+        "notes": [],
+        "page": 115
+      },
+      {
+        "item_no": "42",
+        "text": "tab/kasus",
+        "form": "tab/kasus",
+        "strength": null,
         "notes": [],
         "page": 115
       },
@@ -12231,12 +12626,28 @@
         "strength": "20 mg",
         "notes": [],
         "page": 115
+      },
+      {
+        "item_no": "30",
+        "text": "tab/bulan, maks",
+        "form": "tab/bulan, maks",
+        "strength": null,
+        "notes": [],
+        "page": 115
+      },
+      {
+        "item_no": "30",
+        "text": "tab/bulan",
+        "form": "tab/bulan",
+        "strength": null,
+        "notes": [],
+        "page": 116
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0429",
+    "id": "FN0444",
     "name": "rokuronium",
     "page_first": 186,
     "pages": [
@@ -12255,7 +12666,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0430",
+    "id": "FN0445",
     "name": "ropinirol",
     "page_first": 111,
     "pages": [
@@ -12290,7 +12701,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0431",
+    "id": "FN0446",
     "name": "ropivakain",
     "page_first": 16,
     "pages": [
@@ -12309,7 +12720,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0432",
+    "id": "FN0447",
     "name": "rosuvastatin",
     "page_first": 165,
     "pages": [
@@ -12328,7 +12739,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0433",
+    "id": "FN0448",
     "name": "ruksolitinib",
     "page_first": 90,
     "pages": [
@@ -12363,7 +12774,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0434",
+    "id": "FN0449",
     "name": "russell's viper antivenin",
     "page_first": 210,
     "pages": [
@@ -12382,7 +12793,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0435",
+    "id": "FN0450",
     "name": "sacubitril valsartan",
     "page_first": 162,
     "pages": [
@@ -12417,7 +12828,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0436",
+    "id": "FN0451",
     "name": "salbutamol",
     "page_first": 200,
     "pages": [
@@ -12429,6 +12840,22 @@
         "text": "tab 2 mg",
         "form": "tab",
         "strength": "2 mg",
+        "notes": [],
+        "page": 200
+      },
+      {
+        "item_no": "8",
+        "text": "vial/hari,",
+        "form": "vial/hari,",
+        "strength": null,
+        "notes": [],
+        "page": 200
+      },
+      {
+        "item_no": "10",
+        "text": "vial/hari",
+        "form": "vial/hari",
+        "strength": null,
         "notes": [],
         "page": 200
       },
@@ -12452,7 +12879,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0437",
+    "id": "FN0452",
     "name": "sea snake antivenin",
     "page_first": 210,
     "pages": [
@@ -12471,7 +12898,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0438",
+    "id": "FN0453",
     "name": "secukinumab",
     "page_first": 105,
     "pages": [
@@ -12490,7 +12917,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0439",
+    "id": "FN0454",
     "name": "sefadroksil",
     "page_first": 26,
     "pages": [
@@ -12541,7 +12968,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0440",
+    "id": "FN0455",
     "name": "sefaleksin",
     "page_first": 26,
     "pages": [
@@ -12560,7 +12987,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0441",
+    "id": "FN0456",
     "name": "sefazolin",
     "page_first": 26,
     "pages": [
@@ -12579,7 +13006,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0442",
+    "id": "FN0457",
     "name": "sefepim",
     "page_first": 27,
     "pages": [
@@ -12598,7 +13025,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0443",
+    "id": "FN0458",
     "name": "sefiksim",
     "page_first": 27,
     "pages": [
@@ -12633,7 +13060,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0444",
+    "id": "FN0459",
     "name": "sefoperazon",
     "page_first": 27,
     "pages": [
@@ -12652,7 +13079,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0445",
+    "id": "FN0460",
     "name": "sefotaksim",
     "page_first": 28,
     "pages": [
@@ -12679,7 +13106,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0446",
+    "id": "FN0461",
     "name": "sefpirom",
     "page_first": 28,
     "pages": [
@@ -12698,7 +13125,26 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0447",
+    "id": "FN0462",
+    "name": "seftazidim",
+    "page_first": 28,
+    "pages": [
+      28
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "serb inj 1.000 mg",
+        "form": "serb inj",
+        "strength": "1.000 mg",
+        "notes": [],
+        "page": 28
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0463",
     "name": "seftriakson",
     "page_first": 28,
     "pages": [
@@ -12717,7 +13163,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0448",
+    "id": "FN0464",
     "name": "sefuroksim",
     "page_first": 29,
     "pages": [
@@ -12752,7 +13198,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0449",
+    "id": "FN0465",
     "name": "selekoksib",
     "page_first": 14,
     "pages": [
@@ -12779,7 +13225,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0450",
+    "id": "FN0466",
     "name": "sertralin",
     "page_first": 180,
     "pages": [
@@ -12798,7 +13244,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0451",
+    "id": "FN0467",
     "name": "serum antidifteri (A.D.S)",
     "page_first": 210,
     "pages": [
@@ -12817,7 +13263,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0452",
+    "id": "FN0468",
     "name": "serum antirabies",
     "page_first": 210,
     "pages": [
@@ -12836,7 +13282,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0453",
+    "id": "FN0469",
     "name": "serum antitetanus (A.T.S)",
     "page_first": 210,
     "pages": [
@@ -12887,7 +13333,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0454",
+    "id": "FN0470",
     "name": "setirizin",
     "page_first": 18,
     "pages": [
@@ -12903,6 +13349,14 @@
         "page": 18
       },
       {
+        "item_no": "1",
+        "text": "tab/hari, maks",
+        "form": "tab/hari, maks",
+        "strength": null,
+        "notes": [],
+        "page": 18
+      },
+      {
         "item_no": "2",
         "text": "sir 5 mg/5 mL",
         "form": "sir",
@@ -12914,7 +13368,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0455",
+    "id": "FN0471",
     "name": "setuksimab",
     "page_first": 92,
     "pages": [
@@ -12933,7 +13387,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0456",
+    "id": "FN0472",
     "name": "sevelamer karbonat",
     "page_first": 217,
     "pages": [
@@ -12952,7 +13406,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0457",
+    "id": "FN0473",
     "name": "sevofluran",
     "page_first": 16,
     "pages": [
@@ -12971,7 +13425,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0458",
+    "id": "FN0474",
     "name": "sianokobalamin (vitamin B12)",
     "page_first": 113,
     "pages": [
@@ -13007,7 +13461,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0459",
+    "id": "FN0475",
     "name": "siklofosfamid",
     "page_first": 73,
     "pages": [
@@ -13048,7 +13502,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0460",
+    "id": "FN0476",
     "name": "siklopentolat",
     "page_first": 175,
     "pages": [
@@ -13067,7 +13521,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0461",
+    "id": "FN0477",
     "name": "siklosporin",
     "page_first": 106,
     "pages": [
@@ -13118,7 +13572,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0462",
+    "id": "FN0478",
     "name": "siklus atau hingga",
     "page_first": 93,
     "pages": [
@@ -13137,7 +13591,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0463",
+    "id": "FN0479",
     "name": "sildenafil",
     "page_first": 156,
     "pages": [
@@ -13159,28 +13613,12 @@
         "strength": "10 mg/mL",
         "notes": [],
         "page": 156
-      },
-      {
-        "item_no": "1",
-        "text": "tab 80 mg",
-        "form": "tab",
-        "strength": "80 mg",
-        "notes": [],
-        "page": 156
-      },
-      {
-        "item_no": "2",
-        "text": "tab sal enterik 100 mg",
-        "form": "tab sal enterik",
-        "strength": "100 mg",
-        "notes": [],
-        "page": 156
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0464",
+    "id": "FN0480",
     "name": "silodosin",
     "page_first": 133,
     "pages": [
@@ -13199,7 +13637,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0465",
+    "id": "FN0481",
     "name": "silostazol",
     "page_first": 158,
     "pages": [
@@ -13226,7 +13664,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0466",
+    "id": "FN0482",
     "name": "simvastatin",
     "page_first": 166,
     "pages": [
@@ -13261,7 +13699,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0467",
+    "id": "FN0483",
     "name": "siprofloksasin",
     "page_first": 33,
     "pages": [
@@ -13280,7 +13718,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0468",
+    "id": "FN0484",
     "name": "sisplatin",
     "page_first": 96,
     "pages": [
@@ -13299,7 +13737,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0469",
+    "id": "FN0485",
     "name": "sitagliptin",
     "page_first": 135,
     "pages": [
@@ -13318,7 +13756,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0470",
+    "id": "FN0486",
     "name": "sitarabin",
     "page_first": 78,
     "pages": [
@@ -13337,7 +13775,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0471",
+    "id": "FN0487",
     "name": "sodium hialuronat",
     "page_first": 216,
     "pages": [
@@ -13351,12 +13789,28 @@
         "strength": "10 mg/mL",
         "notes": [],
         "page": 217
+      },
+      {
+        "item_no": "1",
+        "text": "larutan kardioplegia",
+        "form": "larutan kardioplegia",
+        "strength": null,
+        "notes": [],
+        "page": 217
+      },
+      {
+        "item_no": "1",
+        "text": "inj",
+        "form": "inj",
+        "strength": null,
+        "notes": [],
+        "page": 217
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0472",
+    "id": "FN0488",
     "name": "sofosbuvir",
     "page_first": 67,
     "pages": [
@@ -13375,34 +13829,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0473",
-    "name": "solifenasin",
-    "page_first": 206,
-    "pages": [
-      206
-    ],
-    "preparations": [
-      {
-        "item_no": "1",
-        "text": "tab 5 mg",
-        "form": "tab",
-        "strength": "5 mg",
-        "notes": [],
-        "page": 206
-      },
-      {
-        "item_no": "2",
-        "text": "tab 10 mg",
-        "form": "tab",
-        "strength": "10 mg",
-        "notes": [],
-        "page": 206
-      }
-    ],
-    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
-  },
-  {
-    "id": "FN0474",
+    "id": "FN0489",
     "name": "somatostatin",
     "page_first": 194,
     "pages": [
@@ -13421,7 +13848,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0475",
+    "id": "FN0490",
     "name": "somatropin",
     "page_first": 147,
     "pages": [
@@ -13440,7 +13867,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0476",
+    "id": "FN0491",
     "name": "spiramisin",
     "page_first": 32,
     "pages": [
@@ -13459,7 +13886,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0477",
+    "id": "FN0492",
     "name": "spironolakton",
     "page_first": 133,
     "pages": [
@@ -13495,7 +13922,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0478",
+    "id": "FN0493",
     "name": "streptokinase",
     "page_first": 160,
     "pages": [
@@ -13514,7 +13941,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0479",
+    "id": "FN0494",
     "name": "streptomisin",
     "page_first": 32,
     "pages": [
@@ -13542,7 +13969,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0480",
+    "id": "FN0495",
     "name": "sufentanil",
     "page_first": 12,
     "pages": [
@@ -13563,7 +13990,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0481",
+    "id": "FN0496",
     "name": "sugammadeks",
     "page_first": 186,
     "pages": [
@@ -13582,7 +14009,34 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0482",
+    "id": "FN0497",
+    "name": "sukralfat",
+    "page_first": 189,
+    "pages": [
+      189
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "tab 500 mg",
+        "form": "tab",
+        "strength": "500 mg",
+        "notes": [],
+        "page": 189
+      },
+      {
+        "item_no": "2",
+        "text": "susp 500 mg/5 mL",
+        "form": "susp",
+        "strength": "500 mg/5 mL",
+        "notes": [],
+        "page": 189
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0498",
     "name": "suksinilkolin",
     "page_first": 186,
     "pages": [
@@ -13611,7 +14065,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0483",
+    "id": "FN0499",
     "name": "sulfadiazin",
     "page_first": 36,
     "pages": [
@@ -13630,7 +14084,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0484",
+    "id": "FN0500",
     "name": "surfaktan",
     "page_first": 205,
     "pages": [
@@ -13651,13 +14105,21 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0485",
+    "id": "FN0501",
     "name": "tahun",
     "page_first": 159,
     "pages": [
       159
     ],
     "preparations": [
+      {
+        "item_no": "2",
+        "text": "tab per hari,",
+        "form": "tab per hari,",
+        "strength": null,
+        "notes": [],
+        "page": 159
+      },
       {
         "item_no": "1",
         "text": "tab 90 mg",
@@ -13670,7 +14132,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0486",
+    "id": "FN0502",
     "name": "takrolimus",
     "page_first": 106,
     "pages": [
@@ -13721,7 +14183,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0487",
+    "id": "FN0503",
     "name": "tamoksifen",
     "page_first": 101,
     "pages": [
@@ -13748,7 +14210,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0488",
+    "id": "FN0504",
     "name": "tamsulosin",
     "page_first": 133,
     "pages": [
@@ -13775,7 +14237,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0489",
+    "id": "FN0505",
     "name": "telbivudin",
     "page_first": 68,
     "pages": [
@@ -13794,7 +14256,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0490",
+    "id": "FN0506",
     "name": "telmisartan",
     "page_first": 155,
     "pages": [
@@ -13821,7 +14283,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0491",
+    "id": "FN0507",
     "name": "temozolomid",
     "page_first": 73,
     "pages": [
@@ -13848,7 +14310,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0492",
+    "id": "FN0508",
     "name": "tenofovir alafenamid fumarat",
     "page_first": 69,
     "pages": [
@@ -13867,7 +14329,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0493",
+    "id": "FN0509",
     "name": "tenofovir disoproksil fumarat",
     "page_first": 57,
     "pages": [
@@ -13895,7 +14357,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0494",
+    "id": "FN0510",
     "name": "teofilin",
     "page_first": 200,
     "pages": [
@@ -13922,7 +14384,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0495",
+    "id": "FN0511",
     "name": "terazosin",
     "page_first": 133,
     "pages": [
@@ -13949,7 +14411,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0496",
+    "id": "FN0512",
     "name": "terbinafin",
     "page_first": 51,
     "pages": [
@@ -13968,7 +14430,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0497",
+    "id": "FN0513",
     "name": "terbutalin",
     "page_first": 200,
     "pages": [
@@ -14002,6 +14464,22 @@
         "page": 200
       },
       {
+        "item_no": "8",
+        "text": "vial/hari,",
+        "form": "vial/hari,",
+        "strength": null,
+        "notes": [],
+        "page": 201
+      },
+      {
+        "item_no": "10",
+        "text": "vial/hari",
+        "form": "vial/hari",
+        "strength": null,
+        "notes": [],
+        "page": 201
+      },
+      {
         "item_no": "5",
         "text": "serb ih 0,50 mg/dosis",
         "form": "serb ih",
@@ -14013,7 +14491,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0498",
+    "id": "FN0514",
     "name": "testosteron",
     "page_first": 144,
     "pages": [
@@ -14040,7 +14518,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0499",
+    "id": "FN0515",
     "name": "tetanus toxoid",
     "page_first": 210,
     "pages": [
@@ -14059,7 +14537,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0500",
+    "id": "FN0516",
     "name": "tetrakain",
     "page_first": 172,
     "pages": [
@@ -14073,20 +14551,12 @@
         "strength": "0,5%",
         "notes": [],
         "page": 172
-      },
-      {
-        "item_no": "1",
-        "text": "salep mata 1%",
-        "form": "salep mata",
-        "strength": "1%",
-        "notes": [],
-        "page": 172
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0501",
+    "id": "FN0517",
     "name": "tetrasiklin",
     "page_first": 29,
     "pages": [
@@ -14113,7 +14583,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0502",
+    "id": "FN0518",
     "name": "tiamazol",
     "page_first": 148,
     "pages": [
@@ -14140,7 +14610,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0503",
+    "id": "FN0519",
     "name": "tiamin (vitamin B1)",
     "page_first": 215,
     "pages": [
@@ -14159,7 +14629,26 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0504",
+    "id": "FN0520",
+    "name": "tikagrelor",
+    "page_first": 159,
+    "pages": [
+      159
+    ],
+    "preparations": [
+      {
+        "item_no": "60",
+        "text": "tab/bulan, maks",
+        "form": "tab/bulan, maks",
+        "strength": null,
+        "notes": [],
+        "page": 159
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0521",
     "name": "timolol",
     "page_first": 176,
     "pages": [
@@ -14181,20 +14670,12 @@
         "strength": "0,5%",
         "notes": [],
         "page": 177
-      },
-      {
-        "item_no": "1",
-        "text": "tts mata 0,004%",
-        "form": "tts mata",
-        "strength": "0,004%",
-        "notes": [],
-        "page": 177
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0505",
+    "id": "FN0522",
     "name": "tiopental",
     "page_first": 17,
     "pages": [
@@ -14225,7 +14706,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0506",
+    "id": "FN0523",
     "name": "tiotropium",
     "page_first": 201,
     "pages": [
@@ -14245,7 +14726,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0507",
+    "id": "FN0524",
     "name": "tobramisin",
     "page_first": 173,
     "pages": [
@@ -14264,7 +14745,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0508",
+    "id": "FN0525",
     "name": "topiramat",
     "page_first": 21,
     "pages": [
@@ -14299,7 +14780,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0509",
+    "id": "FN0526",
     "name": "tramadol",
     "page_first": 14,
     "pages": [
@@ -14326,7 +14807,26 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0510",
+    "id": "FN0527",
+    "name": "travoprost",
+    "page_first": 177,
+    "pages": [
+      177
+    ],
+    "preparations": [
+      {
+        "item_no": "1",
+        "text": "tts mata 0,004%",
+        "form": "tts mata",
+        "strength": "0,004%",
+        "notes": [],
+        "page": 177
+      }
+    ],
+    "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
+  },
+  {
+    "id": "FN0528",
     "name": "triamsinolon asetonid",
     "page_first": 149,
     "pages": [
@@ -14372,7 +14872,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0511",
+    "id": "FN0529",
     "name": "trifluoperazin",
     "page_first": 185,
     "pages": [
@@ -14391,7 +14891,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0512",
+    "id": "FN0530",
     "name": "triheksifenidil",
     "page_first": 111,
     "pages": [
@@ -14410,7 +14910,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0513",
+    "id": "FN0531",
     "name": "tropikamid",
     "page_first": 130,
     "pages": [
@@ -14437,7 +14937,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0514",
+    "id": "FN0532",
     "name": "tuberkulin protein purified derivative",
     "page_first": 130,
     "pages": [
@@ -14464,7 +14964,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0515",
+    "id": "FN0533",
     "name": "urea",
     "page_first": 170,
     "pages": [
@@ -14499,7 +14999,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0516",
+    "id": "FN0534",
     "name": "vaksin BCG",
     "page_first": 211,
     "pages": [
@@ -14518,7 +15018,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0517",
+    "id": "FN0535",
     "name": "vaksin COVID-19 platform",
     "page_first": 211,
     "pages": [
@@ -14537,7 +15037,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0518",
+    "id": "FN0536",
     "name": "vaksin COVID-19 platform mRNA",
     "page_first": 211,
     "pages": [
@@ -14556,7 +15056,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0519",
+    "id": "FN0537",
     "name": "vaksin COVID-19 platform protein",
     "page_first": 211,
     "pages": [
@@ -14575,7 +15075,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0520",
+    "id": "FN0538",
     "name": "vaksin DPT-HB-Hib",
     "page_first": 211,
     "pages": [
@@ -14596,7 +15096,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0521",
+    "id": "FN0539",
     "name": "vaksin hepatitis B rekombinan",
     "page_first": 211,
     "pages": [
@@ -14617,7 +15117,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0522",
+    "id": "FN0540",
     "name": "vaksin human papilomavirus",
     "page_first": 211,
     "pages": [
@@ -14638,7 +15138,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0523",
+    "id": "FN0541",
     "name": "vaksin human rotavirus",
     "page_first": 212,
     "pages": [
@@ -14665,7 +15165,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0524",
+    "id": "FN0542",
     "name": "vaksin Japanese encephalitis, live",
     "page_first": 212,
     "pages": [
@@ -14686,7 +15186,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0525",
+    "id": "FN0543",
     "name": "vaksin jerap difteri tetanus (DT)",
     "page_first": 212,
     "pages": [
@@ -14707,7 +15207,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0526",
+    "id": "FN0544",
     "name": "vaksin jerap tetanus difteri (Td)",
     "page_first": 212,
     "pages": [
@@ -14728,7 +15228,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0527",
+    "id": "FN0545",
     "name": "vaksin measles rubela (MR)",
     "page_first": 212,
     "pages": [
@@ -14749,7 +15249,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0528",
+    "id": "FN0546",
     "name": "vaksin pneumokokus polisakarida",
     "page_first": 212,
     "pages": [
@@ -14768,7 +15268,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0529",
+    "id": "FN0547",
     "name": "vaksin polio IPV",
     "page_first": 212,
     "pages": [
@@ -14789,7 +15289,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0530",
+    "id": "FN0548",
     "name": "vaksin polio oral (b-OPV)",
     "page_first": 212,
     "pages": [
@@ -14808,7 +15308,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0531",
+    "id": "FN0549",
     "name": "vaksin rabies, untuk manusia",
     "page_first": 212,
     "pages": [
@@ -14827,7 +15327,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0532",
+    "id": "FN0550",
     "name": "valasiklovir",
     "page_first": 53,
     "pages": [
@@ -14846,7 +15346,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0533",
+    "id": "FN0551",
     "name": "valgansiklovir",
     "page_first": 53,
     "pages": [
@@ -14865,7 +15365,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0534",
+    "id": "FN0552",
     "name": "valproat",
     "page_first": 21,
     "pages": [
@@ -14950,7 +15450,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0535",
+    "id": "FN0553",
     "name": "valsartan",
     "page_first": 155,
     "pages": [
@@ -14972,20 +15472,12 @@
         "strength": "160 mg",
         "notes": [],
         "page": 155
-      },
-      {
-        "item_no": "2",
-        "text": "tab lepas lambat 240 mg",
-        "form": "tab lepas lambat",
-        "strength": "240 mg",
-        "notes": [],
-        "page": 155
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0536",
+    "id": "FN0554",
     "name": "vankomisin",
     "page_first": 36,
     "pages": [
@@ -15004,7 +15496,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0537",
+    "id": "FN0555",
     "name": "vasopresin",
     "page_first": 134,
     "pages": [
@@ -15023,11 +15515,12 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0538",
+    "id": "FN0556",
     "name": "verapamil",
     "page_first": 151,
     "pages": [
-      151
+      151,
+      155
     ],
     "preparations": [
       {
@@ -15045,12 +15538,28 @@
         "strength": "2,5 mg/mL",
         "notes": [],
         "page": 151
+      },
+      {
+        "item_no": "1",
+        "text": "tab 80 mg",
+        "form": "tab",
+        "strength": "80 mg",
+        "notes": [],
+        "page": 155
+      },
+      {
+        "item_no": "2",
+        "text": "tab lepas lambat 240 mg",
+        "form": "tab lepas lambat",
+        "strength": "240 mg",
+        "notes": [],
+        "page": 155
       }
     ],
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0539",
+    "id": "FN0557",
     "name": "vildagliptin",
     "page_first": 135,
     "pages": [
@@ -15069,7 +15578,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0540",
+    "id": "FN0558",
     "name": "vinblastin",
     "page_first": 79,
     "pages": [
@@ -15088,7 +15597,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0541",
+    "id": "FN0559",
     "name": "vinkristin",
     "page_first": 80,
     "pages": [
@@ -15107,7 +15616,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0542",
+    "id": "FN0560",
     "name": "vinorelbin",
     "page_first": 80,
     "pages": [
@@ -15126,7 +15635,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0543",
+    "id": "FN0561",
     "name": "vitamin B kompleks mengandung",
     "page_first": 215,
     "pages": [
@@ -15145,7 +15654,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0544",
+    "id": "FN0562",
     "name": "vorikonazol",
     "page_first": 51,
     "pages": [
@@ -15172,7 +15681,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0545",
+    "id": "FN0563",
     "name": "warfarin",
     "page_first": 116,
     "pages": [
@@ -15199,7 +15708,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0546",
+    "id": "FN0564",
     "name": "zidovudin",
     "page_first": 57,
     "pages": [
@@ -15226,7 +15735,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0547",
+    "id": "FN0565",
     "name": "zinc",
     "page_first": 171,
     "pages": [
@@ -15286,7 +15795,7 @@
     "source": "Formularium Nasional 2025 (KMK HK.01.07/MENKES/1199/2025)"
   },
   {
-    "id": "FN0548",
+    "id": "FN0566",
     "name": "zonisamid",
     "page_first": 21,
     "pages": [
